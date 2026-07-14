@@ -1,0 +1,484 @@
+COMMAND:
+C:\Users\hanib\.conda\envs\drones\python.exe -m gym_pybullet_drones.predictiveMonitoringControl.run_geometry_oracle_with_perception --gui False --plot False --duration_sec 200 --output_folder results\oracle_comparison\20260711_150735\geometry_perception\trial_001
+
+STDOUT:
+Saving outputs to: results\oracle_comparison\20260711_150735\geometry_perception\trial_001\run_20260711_150916
+[INFO] BaseAviary.__init__() loaded parameters from the drone's .urdf:
+[INFO] m 0.027000, L 0.039700,
+[INFO] ixx 0.000014, iyy 0.000014, izz 0.000022,
+[INFO] kf 3.160000e-10, km 7.940000e-12,
+[INFO] t2w 2.250000, max_speed_kmh 30.000000,
+[INFO] gnd_eff_coeff 11.368590, prop_radius 0.023135,
+[INFO] drag_xy_coeff 0.000001, drag_z_coeff 0.000001,
+[INFO] dw_coeff_1 2267.180000, dw_coeff_2 0.160000, dw_coeff_3 -0.110000
+Visible obstacle IDs: [2, 3, 4, 5]
+Drone body ID: 1
+Geometry navigation with camera perception started.
+Saved first camera frame: results\oracle_comparison\20260711_150735\geometry_perception\trial_001\run_20260711_150916\first_virtual_camera_frame.png
+t=0.0 s | x=-1.200, y=-0.000 | mode=NOMINAL | active=none | clearance=0.915 m
+  Detected O1_RED | distance=1.31 m | bearing=-7.7 deg | confidence=0.92
+  Detected O2_BLUE | distance=3.52 m | bearing=4.0 deg | confidence=0.61
+t=1.0 s | x=-1.158, y=0.000 | mode=NOMINAL | active=none | clearance=0.873 m
+  Detected O1_RED | distance=1.25 m | bearing=-8.1 deg | confidence=0.93
+  Detected O2_BLUE | distance=3.39 m | bearing=4.1 deg | confidence=0.61
+t=2.0 s | x=-1.115, y=0.000 | mode=NOMINAL | active=none | clearance=0.831 m
+  Detected O1_RED | distance=1.20 m | bearing=-8.5 deg | confidence=0.94
+  Detected O2_BLUE | distance=3.39 m | bearing=4.1 deg | confidence=0.62
+t=3.0 s | x=-1.078, y=0.004 | mode=NOMINAL | active=none | clearance=0.794 m
+  Detected O1_RED | distance=1.14 m | bearing=-8.7 deg | confidence=0.95
+  Detected O2_BLUE | distance=3.26 m | bearing=4.3 deg | confidence=0.61
+t=4.0 s | x=-1.029, y=-0.001 | mode=NOMINAL | active=none | clearance=0.747 m
+  Detected O1_RED | distance=1.06 m | bearing=-9.9 deg | confidence=0.95
+  Detected O2_BLUE | distance=3.26 m | bearing=4.0 deg | confidence=0.64
+t=5.0 s | x=-0.986, y=0.006 | mode=NOMINAL | active=none | clearance=0.703 m
+  Detected O1_RED | distance=1.02 m | bearing=-9.9 deg | confidence=0.95
+  Detected O2_BLUE | distance=3.15 m | bearing=4.1 deg | confidence=0.62
+t=6.0 s | x=-0.950, y=0.010 | mode=NOMINAL | active=none | clearance=0.666 m
+  Detected O1_RED | distance=0.96 m | bearing=-10.3 deg | confidence=0.95
+  Detected O2_BLUE | distance=3.26 m | bearing=4.8 deg | confidence=0.64
+t=7.0 s | x=-0.903, y=0.012 | mode=NOMINAL | active=none | clearance=0.620 m
+  Detected O1_RED | distance=0.90 m | bearing=-10.7 deg | confidence=0.94
+  Detected O2_BLUE | distance=3.15 m | bearing=5.1 deg | confidence=0.63
+t=8.0 s | x=-0.860, y=0.014 | mode=NOMINAL | active=none | clearance=0.578 m
+  Detected O1_RED | distance=0.83 m | bearing=-11.4 deg | confidence=0.94
+  Detected O2_BLUE | distance=3.26 m | bearing=5.3 deg | confidence=0.64
+t=9.0 s | x=-0.805, y=0.017 | mode=NOMINAL | active=none | clearance=0.523 m
+  Detected O1_RED | distance=0.76 m | bearing=-12.6 deg | confidence=0.94
+  Detected O2_BLUE | distance=3.15 m | bearing=5.4 deg | confidence=0.63
+t=10.0 s | x=-0.763, y=0.018 | mode=NOMINAL | active=none | clearance=0.482 m
+  Detected O1_RED | distance=0.70 m | bearing=-13.3 deg | confidence=0.93
+  Detected O2_BLUE | distance=3.26 m | bearing=5.7 deg | confidence=0.64
+t=11.0 s | x=-0.716, y=0.024 | mode=NOMINAL | active=none | clearance=0.435 m
+  Detected O1_RED | distance=0.64 m | bearing=-14.0 deg | confidence=0.93
+  Detected O2_BLUE | distance=3.52 m | bearing=6.7 deg | confidence=0.65
+t=12.0 s | x=-0.676, y=0.017 | mode=NOMINAL | active=none | clearance=0.398 m
+  Detected O1_RED | distance=0.58 m | bearing=-16.1 deg | confidence=0.94
+  Detected O2_BLUE | distance=3.26 m | bearing=6.5 deg | confidence=0.66
+t=13.0 s | x=-0.629, y=0.022 | mode=NOMINAL | active=none | clearance=0.352 m
+  Detected O1_RED | distance=0.51 m | bearing=-17.3 deg | confidence=0.95
+  Detected O2_BLUE | distance=3.26 m | bearing=7.2 deg | confidence=0.63
+t=14.0 s | x=-0.592, y=0.006 | mode=AVOID_RIGHT | active=O1 | clearance=0.322 m
+  Detected O1_RED | distance=0.53 m | bearing=-17.9 deg | confidence=0.98
+  Detected O2_BLUE | distance=2.86 m | bearing=6.0 deg | confidence=0.69
+t=15.0 s | x=-0.567, y=-0.018 | mode=AVOID_RIGHT | active=O1 | clearance=0.307 m
+  Detected O1_RED | distance=0.57 m | bearing=-19.2 deg | confidence=0.99
+  Detected O2_BLUE | distance=2.29 m | bearing=4.5 deg | confidence=0.77
+t=16.0 s | x=-0.538, y=-0.051 | mode=AVOID_RIGHT | active=O1 | clearance=0.295 m
+  Detected O1_RED | distance=0.63 m | bearing=-20.8 deg | confidence=0.99
+  Detected O2_BLUE | distance=2.13 m | bearing=3.4 deg | confidence=0.82
+  Detected O3_YELLOW | distance=13.06 m | bearing=-2.9 deg | confidence=0.42
+t=17.0 s | x=-0.511, y=-0.084 | mode=AVOID_RIGHT | active=O1 | clearance=0.289 m
+  Detected O1_RED | distance=0.70 m | bearing=-22.5 deg | confidence=0.99
+  Detected O2_BLUE | distance=2.08 m | bearing=2.5 deg | confidence=0.82
+  Detected O3_YELLOW | distance=5.38 m | bearing=-5.1 deg | confidence=0.50
+t=18.0 s | x=-0.484, y=-0.108 | mode=AVOID_RIGHT | active=O1 | clearance=0.280 m
+  Detected O1_RED | distance=0.76 m | bearing=-23.6 deg | confidence=0.98
+  Detected O2_BLUE | distance=2.08 m | bearing=1.8 deg | confidence=0.83
+  Detected O3_YELLOW | distance=5.71 m | bearing=-5.7 deg | confidence=0.49
+t=19.0 s | x=-0.465, y=-0.134 | mode=AVOID_RIGHT | active=O1 | clearance=0.282 m
+  Detected O1_RED | distance=0.83 m | bearing=-24.7 deg | confidence=0.96
+  Detected O2_BLUE | distance=2.03 m | bearing=0.9 deg | confidence=0.83
+  Detected O3_YELLOW | distance=5.71 m | bearing=-6.5 deg | confidence=0.47
+t=20.0 s | x=-0.444, y=-0.161 | mode=AVOID_RIGHT | active=O1 | clearance=0.285 m
+  Detected O1_RED | distance=0.98 m | bearing=-26.4 deg | confidence=0.96
+  Detected O2_BLUE | distance=2.03 m | bearing=0.1 deg | confidence=0.84
+  Detected O3_YELLOW | distance=6.53 m | bearing=-7.0 deg | confidence=0.46
+t=21.0 s | x=-0.423, y=-0.187 | mode=AVOID_RIGHT | active=O1 | clearance=0.288 m
+  Detected O1_RED | distance=1.17 m | bearing=-27.9 deg | confidence=0.93
+  Detected O2_BLUE | distance=1.99 m | bearing=-0.8 deg | confidence=0.83
+  Detected O3_YELLOW | distance=7.03 m | bearing=-7.8 deg | confidence=0.45
+t=22.0 s | x=-0.400, y=-0.207 | mode=AVOID_RIGHT | active=O1 | clearance=0.290 m
+  Detected O1_RED | distance=1.47 m | bearing=-29.4 deg | confidence=0.86
+  Detected O2_BLUE | distance=1.94 m | bearing=-1.1 deg | confidence=0.84
+  Detected O3_YELLOW | distance=7.62 m | bearing=-8.2 deg | confidence=0.43
+t=23.0 s | x=-0.376, y=-0.234 | mode=AVOID_RIGHT | active=O1 | clearance=0.298 m
+  Detected O2_BLUE | distance=1.94 m | bearing=-2.1 deg | confidence=0.84
+  Detected O1_RED | distance=2.23 m | bearing=-31.4 deg | confidence=0.73
+  Detected O3_YELLOW | distance=9.14 m | bearing=-9.0 deg | confidence=0.42
+t=24.0 s | x=-0.343, y=-0.259 | mode=AVOID_RIGHT | active=O1 | clearance=0.302 m
+  Detected O2_BLUE | distance=1.87 m | bearing=-3.4 deg | confidence=0.84
+  Detected O1_RED | distance=6.09 m | bearing=-33.7 deg | confidence=0.38
+  Detected O3_YELLOW | distance=10.16 m | bearing=-10.1 deg | confidence=0.38
+t=25.0 s | x=-0.311, y=-0.283 | mode=AVOID_RIGHT | active=O1 | clearance=0.309 m
+  Detected O2_BLUE | distance=1.83 m | bearing=-4.0 deg | confidence=0.84
+  Detected O3_YELLOW | distance=15.23 m | bearing=-10.7 deg | confidence=0.39
+t=26.0 s | x=-0.282, y=-0.300 | mode=AVOID_RIGHT | active=O1 | clearance=0.313 m
+  Detected O2_BLUE | distance=1.79 m | bearing=-4.1 deg | confidence=0.85
+t=27.0 s | x=-0.247, y=-0.325 | mode=AVOID_RIGHT | active=O1 | clearance=0.325 m
+  Detected O2_BLUE | distance=1.72 m | bearing=-5.1 deg | confidence=0.86
+t=28.0 s | x=-0.208, y=-0.348 | mode=AVOID_RIGHT | active=O1 | clearance=0.339 m
+  Detected O2_BLUE | distance=1.66 m | bearing=-6.6 deg | confidence=0.86
+t=29.0 s | x=-0.172, y=-0.359 | mode=AVOID_RIGHT | active=O1 | clearance=0.344 m
+  Detected O2_BLUE | distance=1.63 m | bearing=-7.0 deg | confidence=0.87
+t=30.0 s | x=-0.129, y=-0.361 | mode=AVOID_RIGHT | active=O1 | clearance=0.342 m
+  Detected O2_BLUE | distance=1.55 m | bearing=-7.1 deg | confidence=0.88
+t=31.0 s | x=-0.088, y=-0.376 | mode=AVOID_RIGHT | active=O1 | clearance=0.356 m
+  Detected O2_BLUE | distance=1.50 m | bearing=-7.8 deg | confidence=0.88
+t=32.0 s | x=-0.050, y=-0.391 | mode=AVOID_RIGHT | active=O1 | clearance=0.373 m
+  Detected O2_BLUE | distance=1.45 m | bearing=-8.6 deg | confidence=0.89
+t=33.0 s | x=-0.018, y=-0.405 | mode=AVOID_RIGHT | active=O1 | clearance=0.391 m
+  Detected O2_BLUE | distance=1.41 m | bearing=-9.6 deg | confidence=0.90
+t=34.0 s | x=0.026, y=-0.409 | mode=AVOID_RIGHT | active=O1 | clearance=0.403 m
+  Detected O2_BLUE | distance=1.34 m | bearing=-9.9 deg | confidence=0.91
+t=35.0 s | x=0.058, y=-0.416 | mode=AVOID_RIGHT | active=O1 | clearance=0.417 m
+  Detected O2_BLUE | distance=1.29 m | bearing=-10.5 deg | confidence=0.92
+t=36.0 s | x=0.095, y=-0.429 | mode=AVOID_RIGHT | active=O1 | clearance=0.440 m
+  Detected O2_BLUE | distance=1.22 m | bearing=-11.5 deg | confidence=0.93
+  Detected O4_GREEN | distance=13.06 m | bearing=-1.6 deg | confidence=0.36
+t=37.0 s | x=0.132, y=-0.433 | mode=AVOID_RIGHT | active=O1 | clearance=0.455 m
+  Detected O2_BLUE | distance=1.19 m | bearing=-12.5 deg | confidence=0.94
+  Detected O4_GREEN | distance=13.06 m | bearing=-2.1 deg | confidence=0.41
+Passed O1 at x=0.150
+t=38.0 s | x=0.174, y=-0.436 | mode=NOMINAL | active=none | clearance=0.474 m
+  Detected O2_BLUE | distance=1.11 m | bearing=-13.3 deg | confidence=0.95
+  Detected O4_GREEN | distance=11.43 m | bearing=-2.3 deg | confidence=0.42
+t=39.0 s | x=0.222, y=-0.431 | mode=NOMINAL | active=none | clearance=0.491 m
+  Detected O2_BLUE | distance=1.06 m | bearing=-13.8 deg | confidence=0.95
+  Detected O4_GREEN | distance=11.43 m | bearing=-2.3 deg | confidence=0.43
+t=40.0 s | x=0.268, y=-0.420 | mode=NOMINAL | active=none | clearance=0.504 m
+  Detected O2_BLUE | distance=0.99 m | bearing=-14.0 deg | confidence=0.95
+  Detected O4_GREEN | distance=13.06 m | bearing=-1.9 deg | confidence=0.41
+t=41.0 s | x=0.313, y=-0.415 | mode=NOMINAL | active=none | clearance=0.524 m
+  Detected O2_BLUE | distance=0.92 m | bearing=-14.6 deg | confidence=0.94
+  Detected O4_GREEN | distance=15.23 m | bearing=-1.8 deg | confidence=0.40
+t=42.0 s | x=0.363, y=-0.412 | mode=NOMINAL | active=none | clearance=0.551 m
+  Detected O2_BLUE | distance=0.85 m | bearing=-16.0 deg | confidence=0.94
+  Detected O4_GREEN | distance=15.23 m | bearing=-2.3 deg | confidence=0.40
+t=43.0 s | x=0.406, y=-0.404 | mode=NOMINAL | active=none | clearance=0.573 m
+  Detected O2_BLUE | distance=0.79 m | bearing=-16.2 deg | confidence=0.94
+t=44.0 s | x=0.452, y=-0.402 | mode=NOMINAL | active=none | clearance=0.532 m
+  Detected O2_BLUE | distance=0.73 m | bearing=-17.1 deg | confidence=0.93
+t=45.0 s | x=0.496, y=-0.400 | mode=NOMINAL | active=none | clearance=0.490 m
+  Detected O2_BLUE | distance=0.67 m | bearing=-18.6 deg | confidence=0.94
+t=46.0 s | x=0.536, y=-0.396 | mode=NOMINAL | active=none | clearance=0.451 m
+  Detected O2_BLUE | distance=0.61 m | bearing=-20.3 deg | confidence=0.94
+t=47.0 s | x=0.578, y=-0.395 | mode=NOMINAL | active=none | clearance=0.411 m
+  Detected O2_BLUE | distance=0.61 m | bearing=-20.3 deg | confidence=0.97
+t=48.0 s | x=0.617, y=-0.388 | mode=NOMINAL | active=none | clearance=0.372 m
+  Detected O2_BLUE | distance=0.59 m | bearing=-20.0 deg | confidence=0.98
+t=49.0 s | x=0.657, y=-0.383 | mode=AVOID_LEFT | active=O2 | clearance=0.333 m
+  Detected O2_BLUE | distance=0.58 m | bearing=-19.6 deg | confidence=0.97
+t=50.0 s | x=0.679, y=-0.355 | mode=AVOID_LEFT | active=O2 | clearance=0.302 m
+  Detected O2_BLUE | distance=0.54 m | bearing=-18.2 deg | confidence=0.97
+t=51.0 s | x=0.702, y=-0.315 | mode=AVOID_LEFT | active=O2 | clearance=0.267 m
+  Detected O2_BLUE | distance=0.49 m | bearing=-16.3 deg | confidence=0.97
+t=52.0 s | x=0.703, y=-0.285 | mode=AVOID_LEFT | active=O2 | clearance=0.259 m
+  Detected O2_BLUE | distance=0.45 m | bearing=-14.5 deg | confidence=0.97
+t=53.0 s | x=0.698, y=-0.255 | mode=AVOID_LEFT | active=O2 | clearance=0.258 m
+  Detected O2_BLUE | distance=0.43 m | bearing=-12.1 deg | confidence=0.95
+t=54.0 s | x=0.698, y=-0.225 | mode=AVOID_LEFT | active=O2 | clearance=0.254 m
+  Detected O2_BLUE | distance=0.44 m | bearing=-8.0 deg | confidence=0.95
+t=55.0 s | x=0.700, y=-0.190 | mode=AVOID_LEFT | active=O2 | clearance=0.250 m
+  Detected O2_BLUE | distance=0.44 m | bearing=-2.8 deg | confidence=0.95
+t=56.0 s | x=0.703, y=-0.155 | mode=AVOID_LEFT | active=O2 | clearance=0.248 m
+  Detected O2_BLUE | distance=0.44 m | bearing=3.1 deg | confidence=0.95
+t=57.0 s | x=0.704, y=-0.126 | mode=AVOID_LEFT | active=O2 | clearance=0.250 m
+  Detected O2_BLUE | distance=0.43 m | bearing=7.6 deg | confidence=0.95
+t=58.0 s | x=0.713, y=-0.099 | mode=AVOID_LEFT | active=O2 | clearance=0.245 m
+  Detected O2_BLUE | distance=0.41 m | bearing=12.2 deg | confidence=0.95
+t=59.0 s | x=0.716, y=-0.063 | mode=AVOID_LEFT | active=O2 | clearance=0.250 m
+  Detected O2_BLUE | distance=0.45 m | bearing=14.6 deg | confidence=0.98
+  Detected O3_YELLOW | distance=9.14 m | bearing=-11.1 deg | confidence=0.44
+t=60.0 s | x=0.721, y=-0.033 | mode=AVOID_LEFT | active=O2 | clearance=0.254 m
+  Detected O2_BLUE | distance=0.49 m | bearing=16.2 deg | confidence=0.98
+  Detected O3_YELLOW | distance=4.57 m | bearing=-9.0 deg | confidence=0.59
+t=61.0 s | x=0.729, y=0.006 | mode=AVOID_LEFT | active=O2 | clearance=0.261 m
+  Detected O2_BLUE | distance=0.54 m | bearing=18.2 deg | confidence=0.97
+  Detected O3_YELLOW | distance=2.69 m | bearing=-6.5 deg | confidence=0.72
+t=62.0 s | x=0.738, y=0.035 | mode=AVOID_LEFT | active=O2 | clearance=0.265 m
+  Detected O2_BLUE | distance=0.58 m | bearing=19.5 deg | confidence=0.97
+  Detected O3_YELLOW | distance=2.08 m | bearing=-4.5 deg | confidence=0.80
+t=63.0 s | x=0.753, y=0.063 | mode=AVOID_LEFT | active=O2 | clearance=0.265 m
+  Detected O2_BLUE | distance=0.64 m | bearing=21.2 deg | confidence=0.96
+  Detected O3_YELLOW | distance=2.13 m | bearing=-3.6 deg | confidence=0.82
+  Detected O4_GREEN | distance=7.03 m | bearing=3.1 deg | confidence=0.46
+t=64.0 s | x=0.767, y=0.087 | mode=AVOID_LEFT | active=O2 | clearance=0.266 m
+  Detected O2_BLUE | distance=0.68 m | bearing=22.1 deg | confidence=0.96
+  Detected O3_YELLOW | distance=2.08 m | bearing=-3.3 deg | confidence=0.82
+  Detected O4_GREEN | distance=5.38 m | bearing=4.1 deg | confidence=0.52
+t=65.0 s | x=0.785, y=0.126 | mode=AVOID_LEFT | active=O2 | clearance=0.276 m
+  Detected O2_BLUE | distance=0.79 m | bearing=24.2 deg | confidence=0.96
+  Detected O3_YELLOW | distance=2.08 m | bearing=-2.5 deg | confidence=0.83
+  Detected O4_GREEN | distance=6.09 m | bearing=4.9 deg | confidence=0.50
+t=66.0 s | x=0.804, y=0.152 | mode=AVOID_LEFT | active=O2 | clearance=0.280 m
+  Detected O2_BLUE | distance=0.89 m | bearing=25.4 deg | confidence=0.95
+  Detected O3_YELLOW | distance=2.03 m | bearing=-1.6 deg | confidence=0.83
+  Detected O4_GREEN | distance=6.53 m | bearing=5.7 deg | confidence=0.48
+t=67.0 s | x=0.833, y=0.190 | mode=AVOID_LEFT | active=O2 | clearance=0.288 m
+  Detected O2_BLUE | distance=1.17 m | bearing=27.9 deg | confidence=0.94
+  Detected O3_YELLOW | distance=1.99 m | bearing=-0.5 deg | confidence=0.83
+  Detected O4_GREEN | distance=7.62 m | bearing=6.7 deg | confidence=0.48
+t=68.0 s | x=0.864, y=0.212 | mode=AVOID_LEFT | active=O2 | clearance=0.285 m
+  Detected O2_BLUE | distance=1.36 m | bearing=29.0 deg | confidence=0.87
+  Detected O3_YELLOW | distance=1.94 m | bearing=-0.1 deg | confidence=0.84
+  Detected O4_GREEN | distance=8.31 m | bearing=6.9 deg | confidence=0.43
+t=69.0 s | x=0.889, y=0.245 | mode=AVOID_LEFT | active=O2 | clearance=0.298 m
+  Detected O3_YELLOW | distance=1.90 m | bearing=0.3 deg | confidence=0.84
+  Detected O2_BLUE | distance=2.13 m | bearing=31.2 deg | confidence=0.77
+  Detected O4_GREEN | distance=10.16 m | bearing=7.4 deg | confidence=0.42
+t=70.0 s | x=0.921, y=0.265 | mode=AVOID_LEFT | active=O2 | clearance=0.300 m
+  Detected O3_YELLOW | distance=1.87 m | bearing=0.9 deg | confidence=0.84
+  Detected O2_BLUE | distance=3.26 m | bearing=32.6 deg | confidence=0.58
+  Detected O4_GREEN | distance=11.43 m | bearing=7.7 deg | confidence=0.39
+t=71.0 s | x=0.956, y=0.291 | mode=AVOID_LEFT | active=O2 | clearance=0.310 m
+  Detected O3_YELLOW | distance=1.83 m | bearing=1.8 deg | confidence=0.85
+  Detected O4_GREEN | distance=15.23 m | bearing=8.5 deg | confidence=0.35
+t=72.0 s | x=0.987, y=0.311 | mode=AVOID_LEFT | active=O2 | clearance=0.317 m
+  Detected O3_YELLOW | distance=1.79 m | bearing=2.6 deg | confidence=0.85
+t=73.0 s | x=1.026, y=0.328 | mode=AVOID_LEFT | active=O2 | clearance=0.323 m
+  Detected O3_YELLOW | distance=1.72 m | bearing=3.1 deg | confidence=0.86
+t=74.0 s | x=1.065, y=0.342 | mode=AVOID_LEFT | active=O2 | clearance=0.329 m
+  Detected O3_YELLOW | distance=1.66 m | bearing=3.6 deg | confidence=0.87
+t=75.0 s | x=1.092, y=0.356 | mode=AVOID_LEFT | active=O2 | clearance=0.339 m
+  Detected O3_YELLOW | distance=1.63 m | bearing=4.0 deg | confidence=0.87
+t=76.0 s | x=1.134, y=0.375 | mode=AVOID_LEFT | active=O2 | clearance=0.355 m
+  Detected O3_YELLOW | distance=1.58 m | bearing=5.0 deg | confidence=0.88
+t=77.0 s | x=1.173, y=0.386 | mode=AVOID_LEFT | active=O2 | clearance=0.366 m
+  Detected O3_YELLOW | distance=1.52 m | bearing=6.0 deg | confidence=0.89
+t=78.0 s | x=1.209, y=0.398 | mode=AVOID_LEFT | active=O2 | clearance=0.381 m
+  Detected O3_YELLOW | distance=1.45 m | bearing=7.1 deg | confidence=0.89
+t=79.0 s | x=1.243, y=0.406 | mode=AVOID_LEFT | active=O2 | clearance=0.393 m
+  Detected O3_YELLOW | distance=1.41 m | bearing=7.6 deg | confidence=0.90
+t=80.0 s | x=1.286, y=0.414 | mode=AVOID_LEFT | active=O2 | clearance=0.409 m
+  Detected O3_YELLOW | distance=1.36 m | bearing=8.6 deg | confidence=0.91
+t=81.0 s | x=1.325, y=0.418 | mode=AVOID_LEFT | active=O2 | clearance=0.423 m
+  Detected O3_YELLOW | distance=1.31 m | bearing=8.7 deg | confidence=0.92
+t=82.0 s | x=1.356, y=0.431 | mode=AVOID_LEFT | active=O2 | clearance=0.444 m
+  Detected O3_YELLOW | distance=1.25 m | bearing=9.8 deg | confidence=0.93
+t=83.0 s | x=1.396, y=0.435 | mode=AVOID_LEFT | active=O2 | clearance=0.462 m
+  Detected O3_YELLOW | distance=1.20 m | bearing=10.4 deg | confidence=0.94
+Passed O2 at x=1.401
+t=84.0 s | x=1.443, y=0.430 | mode=NOMINAL | active=none | clearance=0.477 m
+  Detected O3_YELLOW | distance=1.13 m | bearing=11.0 deg | confidence=0.95
+t=85.0 s | x=1.482, y=0.419 | mode=NOMINAL | active=none | clearance=0.485 m
+  Detected O3_YELLOW | distance=1.08 m | bearing=11.3 deg | confidence=0.95
+t=86.0 s | x=1.537, y=0.413 | mode=NOMINAL | active=none | clearance=0.508 m
+  Detected O3_YELLOW | distance=1.00 m | bearing=11.7 deg | confidence=0.95
+t=87.0 s | x=1.581, y=0.406 | mode=NOMINAL | active=none | clearance=0.527 m
+  Detected O3_YELLOW | distance=0.94 m | bearing=11.7 deg | confidence=0.95
+t=88.0 s | x=1.622, y=0.401 | mode=NOMINAL | active=none | clearance=0.548 m
+  Detected O3_YELLOW | distance=0.88 m | bearing=12.6 deg | confidence=0.94
+t=89.0 s | x=1.666, y=0.397 | mode=NOMINAL | active=none | clearance=0.565 m
+  Detected O3_YELLOW | distance=0.83 m | bearing=13.8 deg | confidence=0.96
+t=90.0 s | x=1.713, y=0.387 | mode=NOMINAL | active=none | clearance=0.518 m
+  Detected O3_YELLOW | distance=0.76 m | bearing=14.2 deg | confidence=0.96
+t=91.0 s | x=1.751, y=0.385 | mode=NOMINAL | active=none | clearance=0.481 m
+  Detected O3_YELLOW | distance=0.71 m | bearing=14.8 deg | confidence=0.96
+t=92.0 s | x=1.793, y=0.373 | mode=NOMINAL | active=none | clearance=0.437 m
+  Detected O3_YELLOW | distance=0.65 m | bearing=15.4 deg | confidence=0.96
+t=93.0 s | x=1.836, y=0.366 | mode=NOMINAL | active=none | clearance=0.394 m
+  Detected O3_YELLOW | distance=0.59 m | bearing=16.7 deg | confidence=0.96
+t=94.0 s | x=1.879, y=0.365 | mode=NOMINAL | active=none | clearance=0.353 m
+  Detected O3_YELLOW | distance=0.54 m | bearing=18.2 deg | confidence=0.97
+t=95.0 s | x=1.909, y=0.346 | mode=AVOID_RIGHT | active=O3 | clearance=0.318 m
+  Detected O3_YELLOW | distance=0.51 m | bearing=17.3 deg | confidence=0.98
+t=96.0 s | x=1.929, y=0.312 | mode=AVOID_RIGHT | active=O3 | clearance=0.290 m
+  Detected O3_YELLOW | distance=0.47 m | bearing=15.5 deg | confidence=0.96
+t=97.0 s | x=1.942, y=0.272 | mode=AVOID_RIGHT | active=O3 | clearance=0.267 m
+  Detected O3_YELLOW | distance=0.46 m | bearing=11.0 deg | confidence=0.97
+t=98.0 s | x=1.944, y=0.239 | mode=AVOID_RIGHT | active=O3 | clearance=0.260 m
+  Detected O3_YELLOW | distance=0.46 m | bearing=7.0 deg | confidence=0.97
+t=99.0 s | x=1.952, y=0.205 | mode=AVOID_RIGHT | active=O3 | clearance=0.248 m
+  Detected O3_YELLOW | distance=0.45 m | bearing=2.5 deg | confidence=0.96
+t=100.0 s | x=1.956, y=0.186 | mode=AVOID_RIGHT | active=O3 | clearance=0.244 m
+  Detected O3_YELLOW | distance=0.45 m | bearing=-0.4 deg | confidence=0.96
+t=101.0 s | x=1.952, y=0.148 | mode=AVOID_RIGHT | active=O3 | clearance=0.249 m
+  Detected O3_YELLOW | distance=0.45 m | bearing=-6.0 deg | confidence=0.97
+t=102.0 s | x=1.956, y=0.113 | mode=AVOID_RIGHT | active=O3 | clearance=0.249 m
+  Detected O3_YELLOW | distance=0.44 m | bearing=-11.4 deg | confidence=0.97
+t=103.0 s | x=1.963, y=0.085 | mode=AVOID_RIGHT | active=O3 | clearance=0.247 m
+  Detected O3_YELLOW | distance=0.45 m | bearing=-14.2 deg | confidence=0.99
+t=104.0 s | x=1.964, y=0.057 | mode=AVOID_RIGHT | active=O3 | clearance=0.253 m
+  Detected O3_YELLOW | distance=0.48 m | bearing=-15.9 deg | confidence=0.99
+  Detected O4_GREEN | distance=7.03 m | bearing=8.8 deg | confidence=0.47
+t=105.0 s | x=1.967, y=0.020 | mode=AVOID_RIGHT | active=O3 | clearance=0.262 m
+  Detected O3_YELLOW | distance=0.52 m | bearing=-17.6 deg | confidence=0.98
+  Detected O4_GREEN | distance=3.52 m | bearing=6.5 deg | confidence=0.61
+t=106.0 s | x=1.981, y=-0.007 | mode=AVOID_RIGHT | active=O3 | clearance=0.258 m
+  Detected O3_YELLOW | distance=0.56 m | bearing=-19.0 deg | confidence=0.99
+  Detected O4_GREEN | distance=2.61 m | bearing=4.9 deg | confidence=0.72
+t=107.0 s | x=1.993, y=-0.033 | mode=AVOID_RIGHT | active=O3 | clearance=0.259 m
+  Detected O3_YELLOW | distance=0.61 m | bearing=-20.4 deg | confidence=0.99
+  Detected O4_GREEN | distance=2.13 m | bearing=2.9 deg | confidence=0.81
+t=108.0 s | x=2.014, y=-0.066 | mode=AVOID_RIGHT | active=O3 | clearance=0.258 m
+  Detected O3_YELLOW | distance=0.69 m | bearing=-22.4 deg | confidence=0.99
+  Detected O4_GREEN | distance=2.08 m | bearing=2.0 deg | confidence=0.81
+t=109.0 s | x=2.029, y=-0.097 | mode=AVOID_RIGHT | active=O3 | clearance=0.264 m
+  Detected O3_YELLOW | distance=0.77 m | bearing=-23.7 deg | confidence=0.99
+  Detected O4_GREEN | distance=2.08 m | bearing=1.3 deg | confidence=0.82
+t=110.0 s | x=2.037, y=-0.121 | mode=AVOID_RIGHT | active=O3 | clearance=0.272 m
+  Detected O3_YELLOW | distance=0.85 m | bearing=-24.9 deg | confidence=0.98
+  Detected O4_GREEN | distance=2.03 m | bearing=0.6 deg | confidence=0.83
+t=111.0 s | x=2.046, y=-0.142 | mode=AVOID_RIGHT | active=O3 | clearance=0.278 m
+  Detected O3_YELLOW | distance=0.90 m | bearing=-25.6 deg | confidence=0.97
+  Detected O4_GREEN | distance=2.03 m | bearing=-0.1 deg | confidence=0.83
+t=112.0 s | x=2.067, y=-0.169 | mode=AVOID_RIGHT | active=O3 | clearance=0.282 m
+  Detected O3_YELLOW | distance=1.10 m | bearing=-27.4 deg | confidence=0.97
+  Detected O4_GREEN | distance=2.03 m | bearing=-0.9 deg | confidence=0.83
+t=113.0 s | x=2.091, y=-0.191 | mode=AVOID_RIGHT | active=O3 | clearance=0.283 m
+  Detected O3_YELLOW | distance=1.32 m | bearing=-28.8 deg | confidence=0.92
+  Detected O4_GREEN | distance=2.03 m | bearing=-1.4 deg | confidence=0.84
+t=114.0 s | x=2.114, y=-0.228 | mode=AVOID_RIGHT | active=O3 | clearance=0.298 m
+  Detected O3_YELLOW | distance=1.94 m | bearing=-30.9 deg | confidence=0.82
+  Detected O4_GREEN | distance=1.99 m | bearing=-2.0 deg | confidence=0.83
+t=115.0 s | x=2.143, y=-0.252 | mode=AVOID_RIGHT | active=O3 | clearance=0.303 m
+  Detected O4_GREEN | distance=1.90 m | bearing=-2.5 deg | confidence=0.84
+  Detected O3_YELLOW | distance=3.39 m | bearing=-32.7 deg | confidence=0.68
+t=116.0 s | x=2.177, y=-0.275 | mode=AVOID_RIGHT | active=O3 | clearance=0.307 m
+  Detected O4_GREEN | distance=1.87 m | bearing=-3.4 deg | confidence=0.84
+t=117.0 s | x=2.203, y=-0.297 | mode=AVOID_RIGHT | active=O3 | clearance=0.316 m
+  Detected O4_GREEN | distance=1.87 m | bearing=-4.1 deg | confidence=0.84
+t=118.0 s | x=2.235, y=-0.310 | mode=AVOID_RIGHT | active=O3 | clearance=0.317 m
+  Detected O4_GREEN | distance=1.76 m | bearing=-4.5 deg | confidence=0.84
+t=119.0 s | x=2.274, y=-0.332 | mode=AVOID_RIGHT | active=O3 | clearance=0.328 m
+  Detected O4_GREEN | distance=1.72 m | bearing=-5.4 deg | confidence=0.85
+t=120.0 s | x=2.307, y=-0.344 | mode=AVOID_RIGHT | active=O3 | clearance=0.333 m
+  Detected O4_GREEN | distance=1.69 m | bearing=-5.7 deg | confidence=0.86
+t=121.0 s | x=2.349, y=-0.362 | mode=AVOID_RIGHT | active=O3 | clearance=0.344 m
+  Detected O4_GREEN | distance=1.63 m | bearing=-6.7 deg | confidence=0.86
+t=122.0 s | x=2.389, y=-0.370 | mode=AVOID_RIGHT | active=O3 | clearance=0.350 m
+  Detected O4_GREEN | distance=1.58 m | bearing=-7.2 deg | confidence=0.87
+t=123.0 s | x=2.435, y=-0.379 | mode=AVOID_RIGHT | active=O3 | clearance=0.360 m
+  Detected O4_GREEN | distance=1.50 m | bearing=-7.6 deg | confidence=0.88
+t=124.0 s | x=2.471, y=-0.387 | mode=AVOID_RIGHT | active=O3 | clearance=0.372 m
+  Detected O4_GREEN | distance=1.45 m | bearing=-7.8 deg | confidence=0.89
+t=125.0 s | x=2.508, y=-0.392 | mode=AVOID_RIGHT | active=O3 | clearance=0.382 m
+  Detected O4_GREEN | distance=1.41 m | bearing=-8.3 deg | confidence=0.89
+t=126.0 s | x=2.544, y=-0.403 | mode=AVOID_RIGHT | active=O3 | clearance=0.401 m
+  Detected O4_GREEN | distance=1.34 m | bearing=-9.2 deg | confidence=0.91
+t=127.0 s | x=2.575, y=-0.409 | mode=AVOID_RIGHT | active=O3 | clearance=0.415 m
+  Detected O4_GREEN | distance=1.31 m | bearing=-9.9 deg | confidence=0.91
+t=128.0 s | x=2.607, y=-0.428 | mode=AVOID_RIGHT | active=O3 | clearance=0.442 m
+  Detected O4_GREEN | distance=1.25 m | bearing=-10.8 deg | confidence=0.92
+t=129.0 s | x=2.650, y=-0.432 | mode=AVOID_RIGHT | active=O3 | clearance=0.461 m
+  Detected O4_GREEN | distance=1.20 m | bearing=-11.1 deg | confidence=0.93
+Passed O3 at x=2.650
+t=130.0 s | x=2.691, y=-0.420 | mode=NOMINAL | active=none | clearance=0.467 m
+  Detected O4_GREEN | distance=1.14 m | bearing=-11.1 deg | confidence=0.94
+t=131.0 s | x=2.726, y=-0.414 | mode=NOMINAL | active=none | clearance=0.478 m
+  Detected O4_GREEN | distance=1.10 m | bearing=-11.5 deg | confidence=0.94
+t=132.0 s | x=2.770, y=-0.396 | mode=NOMINAL | active=none | clearance=0.485 m
+  Detected O4_GREEN | distance=1.04 m | bearing=-11.4 deg | confidence=0.94
+t=133.0 s | x=2.823, y=-0.381 | mode=NOMINAL | active=none | clearance=0.502 m
+  Detected O4_GREEN | distance=0.97 m | bearing=-11.1 deg | confidence=0.95
+t=134.0 s | x=2.869, y=-0.372 | mode=NOMINAL | active=none | clearance=0.524 m
+  Detected O4_GREEN | distance=0.91 m | bearing=-11.4 deg | confidence=0.96
+t=135.0 s | x=2.918, y=-0.353 | mode=NOMINAL | active=none | clearance=0.543 m
+  Detected O4_GREEN | distance=0.85 m | bearing=-11.0 deg | confidence=0.96
+t=136.0 s | x=2.966, y=-0.341 | mode=NOMINAL | active=none | clearance=0.503 m
+  Detected O4_GREEN | distance=0.78 m | bearing=-11.5 deg | confidence=0.97
+t=137.0 s | x=3.000, y=-0.335 | mode=NOMINAL | active=none | clearance=0.468 m
+  Detected O4_GREEN | distance=0.73 m | bearing=-12.2 deg | confidence=0.96
+t=138.0 s | x=3.046, y=-0.323 | mode=NOMINAL | active=none | clearance=0.421 m
+  Detected O4_GREEN | distance=0.67 m | bearing=-12.5 deg | confidence=0.96
+t=139.0 s | x=3.091, y=-0.310 | mode=NOMINAL | active=none | clearance=0.374 m
+  Detected O4_GREEN | distance=0.61 m | bearing=-12.5 deg | confidence=0.96
+t=140.0 s | x=3.130, y=-0.302 | mode=AVOID_LEFT | active=O4 | clearance=0.334 m
+  Detected O4_GREEN | distance=0.56 m | bearing=-13.1 deg | confidence=0.96
+t=141.0 s | x=3.159, y=-0.277 | mode=AVOID_LEFT | active=O4 | clearance=0.301 m
+  Detected O4_GREEN | distance=0.52 m | bearing=-11.5 deg | confidence=0.97
+t=142.0 s | x=3.181, y=-0.248 | mode=AVOID_LEFT | active=O4 | clearance=0.274 m
+  Detected O4_GREEN | distance=0.49 m | bearing=-8.3 deg | confidence=0.96
+t=143.0 s | x=3.189, y=-0.227 | mode=AVOID_LEFT | active=O4 | clearance=0.264 m
+  Detected O4_GREEN | distance=0.49 m | bearing=-5.7 deg | confidence=0.96
+t=144.0 s | x=3.187, y=-0.201 | mode=AVOID_LEFT | active=O4 | clearance=0.264 m
+  Detected O4_GREEN | distance=0.49 m | bearing=-3.0 deg | confidence=0.96
+t=145.0 s | x=3.199, y=-0.170 | mode=AVOID_LEFT | active=O4 | clearance=0.251 m
+  Detected O4_GREEN | distance=0.48 m | bearing=1.0 deg | confidence=0.96
+t=146.0 s | x=3.204, y=-0.141 | mode=AVOID_LEFT | active=O4 | clearance=0.248 m
+  Detected O4_GREEN | distance=0.47 m | bearing=4.8 deg | confidence=0.96
+t=147.0 s | x=3.213, y=-0.115 | mode=AVOID_LEFT | active=O4 | clearance=0.242 m
+  Detected O4_GREEN | distance=0.45 m | bearing=9.2 deg | confidence=0.96
+t=148.0 s | x=3.215, y=-0.084 | mode=AVOID_LEFT | active=O4 | clearance=0.245 m
+  Detected O4_GREEN | distance=0.44 m | bearing=13.8 deg | confidence=0.96
+t=149.0 s | x=3.222, y=-0.059 | mode=AVOID_LEFT | active=O4 | clearance=0.245 m
+  Detected O4_GREEN | distance=0.46 m | bearing=15.1 deg | confidence=0.97
+t=150.0 s | x=3.223, y=-0.019 | mode=AVOID_LEFT | active=O4 | clearance=0.257 m
+  Detected O4_GREEN | distance=0.51 m | bearing=17.1 deg | confidence=0.98
+t=151.0 s | x=3.231, y=0.016 | mode=AVOID_LEFT | active=O4 | clearance=0.263 m
+  Detected O4_GREEN | distance=0.56 m | bearing=19.1 deg | confidence=0.98
+t=152.0 s | x=3.243, y=0.042 | mode=AVOID_LEFT | active=O4 | clearance=0.263 m
+  Detected O4_GREEN | distance=0.61 m | bearing=20.4 deg | confidence=0.98
+t=153.0 s | x=3.259, y=0.068 | mode=AVOID_LEFT | active=O4 | clearance=0.263 m
+  Detected O4_GREEN | distance=0.68 m | bearing=22.0 deg | confidence=0.98
+t=154.0 s | x=3.267, y=0.094 | mode=AVOID_LEFT | active=O4 | clearance=0.271 m
+  Detected O4_GREEN | distance=0.71 m | bearing=22.8 deg | confidence=0.97
+t=155.0 s | x=3.279, y=0.120 | mode=AVOID_LEFT | active=O4 | clearance=0.277 m
+  Detected O4_GREEN | distance=0.78 m | bearing=24.0 deg | confidence=0.97
+t=156.0 s | x=3.292, y=0.143 | mode=AVOID_LEFT | active=O4 | clearance=0.282 m
+  Detected O4_GREEN | distance=0.86 m | bearing=25.1 deg | confidence=0.97
+t=157.0 s | x=3.311, y=0.178 | mode=AVOID_LEFT | active=O4 | clearance=0.294 m
+  Detected O4_GREEN | distance=1.11 m | bearing=27.5 deg | confidence=0.97
+t=158.0 s | x=3.336, y=0.201 | mode=AVOID_LEFT | active=O4 | clearance=0.294 m
+  Detected O4_GREEN | distance=1.36 m | bearing=29.0 deg | confidence=0.91
+t=159.0 s | x=3.366, y=0.226 | mode=AVOID_LEFT | active=O4 | clearance=0.295 m
+  Detected O4_GREEN | distance=1.72 m | bearing=30.3 deg | confidence=0.84
+t=160.0 s | x=3.398, y=0.246 | mode=AVOID_LEFT | active=O4 | clearance=0.295 m
+  Detected O4_GREEN | distance=2.69 m | bearing=32.0 deg | confidence=0.73
+t=161.0 s | x=3.432, y=0.274 | mode=AVOID_LEFT | active=O4 | clearance=0.303 m
+  No coloured obstacle detected.
+t=162.0 s | x=3.458, y=0.303 | mode=AVOID_LEFT | active=O4 | clearance=0.320 m
+  No coloured obstacle detected.
+t=163.0 s | x=3.500, y=0.317 | mode=AVOID_LEFT | active=O4 | clearance=0.319 m
+  No coloured obstacle detected.
+t=164.0 s | x=3.536, y=0.329 | mode=AVOID_LEFT | active=O4 | clearance=0.321 m
+  No coloured obstacle detected.
+t=165.0 s | x=3.573, y=0.345 | mode=AVOID_LEFT | active=O4 | clearance=0.331 m
+  No coloured obstacle detected.
+t=166.0 s | x=3.608, y=0.355 | mode=AVOID_LEFT | active=O4 | clearance=0.336 m
+  No coloured obstacle detected.
+t=167.0 s | x=3.648, y=0.365 | mode=AVOID_LEFT | active=O4 | clearance=0.345 m
+  No coloured obstacle detected.
+t=168.0 s | x=3.692, y=0.374 | mode=AVOID_LEFT | active=O4 | clearance=0.355 m
+  No coloured obstacle detected.
+t=169.0 s | x=3.738, y=0.385 | mode=AVOID_LEFT | active=O4 | clearance=0.372 m
+  No coloured obstacle detected.
+t=170.0 s | x=3.782, y=0.396 | mode=AVOID_LEFT | active=O4 | clearance=0.391 m
+  No coloured obstacle detected.
+t=171.0 s | x=3.816, y=0.412 | mode=AVOID_LEFT | active=O4 | clearance=0.415 m
+  No coloured obstacle detected.
+t=172.0 s | x=3.856, y=0.422 | mode=AVOID_LEFT | active=O4 | clearance=0.436 m
+  No coloured obstacle detected.
+t=173.0 s | x=3.895, y=0.436 | mode=AVOID_LEFT | active=O4 | clearance=0.463 m
+  No coloured obstacle detected.
+Passed O4 at x=3.901
+t=174.0 s | x=3.925, y=0.410 | mode=NOMINAL | active=none | clearance=0.451 m
+  No coloured obstacle detected.
+t=175.0 s | x=3.953, y=0.376 | mode=NOMINAL | active=none | clearance=0.433 m
+  No coloured obstacle detected.
+t=176.0 s | x=3.975, y=0.334 | mode=NOMINAL | active=none | clearance=0.409 m
+  No coloured obstacle detected.
+t=177.0 s | x=3.992, y=0.290 | mode=NOMINAL | active=none | clearance=0.382 m
+  No coloured obstacle detected.
+t=178.0 s | x=4.023, y=0.260 | mode=NOMINAL | active=none | clearance=0.377 m
+  No coloured obstacle detected.
+t=179.0 s | x=4.047, y=0.223 | mode=NOMINAL | active=none | clearance=0.365 m
+  No coloured obstacle detected.
+t=180.0 s | x=4.068, y=0.184 | mode=NOMINAL | active=none | clearance=0.354 m
+  No coloured obstacle detected.
+t=181.0 s | x=4.091, y=0.147 | mode=NOMINAL | active=none | clearance=0.349 m
+  No coloured obstacle detected.
+t=182.0 s | x=4.115, y=0.113 | mode=NOMINAL | active=none | clearance=0.349 m
+  No coloured obstacle detected.
+Reached final goal at t=182.42 s.
+Saved trajectory CSV: results\oracle_comparison\20260711_150735\geometry_perception\trial_001\run_20260711_150916\camera_oracle_trajectory.csv
+Saved 2D trajectory plot: results\oracle_comparison\20260711_150735\geometry_perception\trial_001\run_20260711_150916\camera_oracle_trajectory_2d.png
+Saved 2D trajectory PDF: results\oracle_comparison\20260711_150735\geometry_perception\trial_001\run_20260711_150916\camera_oracle_trajectory_2d.pdf
+
+Run summary:
+Minimum physical clearance: 0.240 m
+Minimum effective clearance: 0.055 m
+Final position: x=4.128, y=0.095
+Simulation finished.
+
+
+STDERR:
+pybullet build time: Oct 21 2025 12:15:52
+C:\Users\hanib\gym-drone\gym_pybullet_drones\envs\BaseAviary.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+C:\Users\hanib\.conda\envs\drones\lib\site-packages\gymnasium\spaces\box.py:236: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+C:\Users\hanib\.conda\envs\drones\lib\site-packages\gymnasium\spaces\box.py:306: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+Ignoring fixed y limits to fulfill fixed data aspect with adjustable data limits.
+Ignoring fixed y limits to fulfill fixed data aspect with adjustable data limits.

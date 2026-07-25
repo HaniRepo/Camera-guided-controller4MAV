@@ -54,7 +54,7 @@ class MethodSpec:
     label: str
     module: str
 
-
+'''
 METHODS = (
     MethodSpec(
         key="geometry",
@@ -66,6 +66,7 @@ METHODS = (
         label="Geometry + perception",
         module=f"{PACKAGE_PREFIX}.run_geometry_oracle_with_perception",
     ),
+    
     MethodSpec(
         key="geometry_perception_state",
         label="Geometry + perception + state estimation",
@@ -77,6 +78,39 @@ METHODS = (
     MethodSpec(
         key="closed_loop_camera",
         label="Closed-loop camera oracle",
+        module=f"{PACKAGE_PREFIX}.run_closed_loop_camera_oracle",
+    ),
+)
+'''
+'''
+METHODS = (
+    MethodSpec(
+        key="geometry",
+        label="Ideal geometry oracle",
+        module=f"{PACKAGE_PREFIX}.run_geometry_oracle",
+    ),
+    MethodSpec(
+        key="geometry_perception",
+        label="Perception without state estimation",
+        module=f"{PACKAGE_PREFIX}.run_geometry_oracle_with_perception",
+    ),
+    MethodSpec(
+        key="closed_loop_camera",
+        label="Proposed closed-loop camera oracle",
+        module=f"{PACKAGE_PREFIX}.run_closed_loop_camera_oracle",
+    ),
+)
+'''
+
+METHODS = (
+    MethodSpec(
+        key="geometry",
+        label="Ideal geometry oracle",
+        module=f"{PACKAGE_PREFIX}.run_geometry_oracle",
+    ),
+    MethodSpec(
+        key="closed_loop_camera",
+        label="Proposed closed-loop camera oracle",
         module=f"{PACKAGE_PREFIX}.run_closed_loop_camera_oracle",
     ),
 )
@@ -670,67 +704,102 @@ def plot_trajectory_comparison(
 ) -> None:
     figure, axis = plt.subplots(figsize=(10.5, 5.2))
 
+    # Plot all method trajectories
     for method in METHODS:
         series = series_by_method.get(method.key)
+
         if series is None:
             continue
 
+        x_values = np.asarray(series["x"], dtype=float)
+        y_values = np.asarray(series["y"], dtype=float)
+
+        finite = np.isfinite(x_values) & np.isfinite(y_values)
+
         axis.plot(
-            series["x"],
-            series["y"],
+            x_values[finite],
+            y_values[finite],
             linewidth=2.0,
             label=method.label,
         )
 
+    # Use exactly the same map as the closed-loop camera plot
     obstacle_data = (
-        ("O1", -0.10, 0.18, 0.20),
-        ("O2", 1.15, -0.18, 0.20),
-        ("O3", 2.40, 0.18, 0.20),
-        ("O4", 3.65, -0.18, 0.20),
+        ("O1", -0.10,  0.18, 0.20, "RIGHT"),
+        ("O2",  1.15, -0.18, 0.20, "LEFT"),
+        ("O3",  2.40,  0.18, 0.20, "RIGHT"),
+        ("O4",  3.65, -0.18, 0.20, "LEFT"),
     )
 
-    for name, x, y, radius in obstacle_data:
+    safety_margin = 0.18
+
+    for name, x, y, radius, side in obstacle_data:
+
+        # Physical obstacle
         axis.add_patch(
             plt.Circle(
                 (x, y),
                 radius,
-                fill=False,
-                linewidth=1.5,
+                fill=True,
+                alpha=0.30,
+                zorder=1,
             )
         )
+
+        # Required safety boundary
+        axis.add_patch(
+            plt.Circle(
+                (x, y),
+                radius + safety_margin,
+                fill=False,
+                linestyle="--",
+                linewidth=1.8,
+                zorder=1,
+            )
+        )
+
         axis.text(
             x,
             y,
-            name,
+            f"{name}\n{side}",
             ha="center",
             va="center",
+            fontsize=9,
+            fontweight="bold",
+            zorder=3,
         )
 
+    # Start and goal
     axis.scatter(
         [START[0]],
         [START[1]],
         marker="o",
-        s=70,
+        s=80,
         label="Start",
+        zorder=5,
     )
+
     axis.scatter(
         [GOAL[0]],
         [GOAL[1]],
         marker="*",
-        s=160,
+        s=180,
         label="Goal",
+        zorder=5,
     )
 
-    axis.set_title(
-        "Trajectory comparison"
-    )
+    axis.set_title("Safety-Oracle Trajectory Comparison")
     axis.set_xlabel("x position [m]")
     axis.set_ylabel("y position [m]")
+
+    # Important: use the same limits as the nice individual plot
     axis.set_xlim(-1.45, 4.45)
-    axis.set_ylim(-1.0, 1.0)
-    axis.axis("equal")
+    axis.set_ylim(-0.95, 0.95)
+
+    axis.set_aspect("equal", adjustable="box")
     axis.grid(True)
-    axis.legend()
+    axis.legend(loc="upper right", fontsize=8)
+
     figure.tight_layout()
 
     save_figure(

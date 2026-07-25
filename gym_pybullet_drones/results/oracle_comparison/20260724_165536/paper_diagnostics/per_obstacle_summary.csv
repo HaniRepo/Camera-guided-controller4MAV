@@ -1,0 +1,9 @@
+method_key,method,obstacle,camera_obstacle,closest_index,closest_time_s,closest_x_m,closest_y_m,minimum_clearance_m,effective_clearance_m,risk_at_closest,speed_at_closest_mps,estimated_distance_at_closest_m,control_mode_at_closest,maximum_local_risk,minimum_local_speed_mps
+geometry,Geometry controller,O1,O1_RED,894,18.625,-0.459976,-0.146743,0.2861519398552267,0.1061519398552267,,0.16,,AVOID_RIGHT,,0.16
+geometry,Geometry controller,O2,O2_BLUE,2663,55.479167,0.725258,-0.105802,0.23117410609636563,0.051174106096365635,,0.13,,AVOID_LEFT,,0.13
+geometry,Geometry controller,O3,O3_YELLOW,4627,96.395833,1.962675,0.226171,0.23975551942641943,0.059755519426419434,,0.13,,AVOID_RIGHT,,0.13
+geometry,Geometry controller,O4,O4_GREEN,6781,141.270833,3.216893,-0.153029,0.23394597392993532,0.05394597392993533,,0.13,,AVOID_LEFT,,0.13
+closed_loop_camera,Closed-loop camera oracle,O1,O1_RED,2334,48.625,0.350627,-0.138153,0.351621269113148,0.171621269113148,0.486058,0.17,0.932668,AVOID_LEFT,1.0,0.13
+closed_loop_camera,Closed-loop camera oracle,O2,O2_BLUE,4214,87.791667,1.575298,0.058103,0.2874129947108511,0.10741299471085108,0.413898,0.17,0.972356,AVOID_RIGHT,0.946246,0.17
+closed_loop_camera,Closed-loop camera oracle,O3,O3_YELLOW,6059,126.229167,2.827812,-0.100158,0.3113820609954951,0.1313820609954951,0.385229,0.17,0.988124,AVOID_LEFT,0.922845,0.17
+closed_loop_camera,Closed-loop camera oracle,O4,O4_GREEN,7564,157.583333,3.819173,0.196563,0.21281860047483336,0.03281860047483337,0.0,0.18,,NOMINAL,0.0,0.18

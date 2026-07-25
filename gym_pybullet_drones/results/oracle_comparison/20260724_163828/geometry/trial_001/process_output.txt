@@ -1,0 +1,219 @@
+COMMAND:
+C:\Users\hanib\.conda\envs\drones\python.exe -m gym_pybullet_drones.predictiveMonitoringControl.run_geometry_oracle --gui False --plot False --duration_sec 200 --output_folder results\oracle_comparison\20260724_163828\geometry\trial_001
+
+STDOUT:
+Saving outputs to: results\oracle_comparison\20260724_163828\geometry\trial_001\run_20260724_163829
+[INFO] BaseAviary.__init__() loaded parameters from the drone's .urdf:
+[INFO] m 0.027000, L 0.039700,
+[INFO] ixx 0.000014, iyy 0.000014, izz 0.000022,
+[INFO] kf 3.160000e-10, km 7.940000e-12,
+[INFO] t2w 2.250000, max_speed_kmh 30.000000,
+[INFO] gnd_eff_coeff 11.368590, prop_radius 0.023135,
+[INFO] drag_xy_coeff 0.000001, drag_z_coeff 0.000001,
+[INFO] dw_coeff_1 2267.180000, dw_coeff_2 0.160000, dw_coeff_3 -0.110000
+Visible obstacle IDs: [2, 3, 4, 5]
+Drone body ID: 1
+Alternating circular-obstacle test started.
+t=0.0 s | x=-1.200, y=0.000 | mode=NOMINAL | active=none | clearance=0.915 m
+t=1.0 s | x=-1.159, y=-0.000 | mode=NOMINAL | active=none | clearance=0.874 m
+t=2.0 s | x=-1.116, y=-0.000 | mode=NOMINAL | active=none | clearance=0.832 m
+t=3.0 s | x=-1.072, y=0.003 | mode=NOMINAL | active=none | clearance=0.789 m
+t=4.0 s | x=-1.032, y=0.001 | mode=NOMINAL | active=none | clearance=0.749 m
+t=5.0 s | x=-0.989, y=-0.001 | mode=NOMINAL | active=none | clearance=0.707 m
+t=6.0 s | x=-0.945, y=-0.007 | mode=NOMINAL | active=none | clearance=0.666 m
+t=7.0 s | x=-0.899, y=-0.007 | mode=NOMINAL | active=none | clearance=0.621 m
+t=8.0 s | x=-0.851, y=-0.004 | mode=NOMINAL | active=none | clearance=0.573 m
+t=9.0 s | x=-0.807, y=-0.012 | mode=NOMINAL | active=none | clearance=0.532 m
+t=10.0 s | x=-0.761, y=-0.015 | mode=NOMINAL | active=none | clearance=0.489 m
+t=11.0 s | x=-0.720, y=-0.021 | mode=NOMINAL | active=none | clearance=0.452 m
+t=12.0 s | x=-0.674, y=-0.021 | mode=NOMINAL | active=none | clearance=0.408 m
+t=13.0 s | x=-0.635, y=-0.027 | mode=NOMINAL | active=none | clearance=0.374 m
+t=14.0 s | x=-0.592, y=-0.030 | mode=AVOID_RIGHT | active=O1 | clearance=0.335 m
+t=15.0 s | x=-0.555, y=-0.044 | mode=AVOID_RIGHT | active=O1 | clearance=0.307 m
+t=16.0 s | x=-0.527, y=-0.075 | mode=AVOID_RIGHT | active=O1 | clearance=0.297 m
+t=17.0 s | x=-0.504, y=-0.107 | mode=AVOID_RIGHT | active=O1 | clearance=0.296 m
+t=18.0 s | x=-0.479, y=-0.132 | mode=AVOID_RIGHT | active=O1 | clearance=0.290 m
+t=19.0 s | x=-0.452, y=-0.162 | mode=AVOID_RIGHT | active=O1 | clearance=0.290 m
+t=20.0 s | x=-0.418, y=-0.193 | mode=AVOID_RIGHT | active=O1 | clearance=0.290 m
+t=21.0 s | x=-0.389, y=-0.216 | mode=AVOID_RIGHT | active=O1 | clearance=0.290 m
+t=22.0 s | x=-0.365, y=-0.240 | mode=AVOID_RIGHT | active=O1 | clearance=0.296 m
+t=23.0 s | x=-0.328, y=-0.264 | mode=AVOID_RIGHT | active=O1 | clearance=0.299 m
+t=24.0 s | x=-0.295, y=-0.294 | mode=AVOID_RIGHT | active=O1 | clearance=0.312 m
+t=25.0 s | x=-0.266, y=-0.304 | mode=AVOID_RIGHT | active=O1 | clearance=0.312 m
+t=26.0 s | x=-0.235, y=-0.320 | mode=AVOID_RIGHT | active=O1 | clearance=0.318 m
+t=27.0 s | x=-0.194, y=-0.337 | mode=AVOID_RIGHT | active=O1 | clearance=0.325 m
+t=28.0 s | x=-0.158, y=-0.346 | mode=AVOID_RIGHT | active=O1 | clearance=0.329 m
+t=29.0 s | x=-0.114, y=-0.352 | mode=AVOID_RIGHT | active=O1 | clearance=0.333 m
+t=30.0 s | x=-0.076, y=-0.360 | mode=AVOID_RIGHT | active=O1 | clearance=0.340 m
+t=31.0 s | x=-0.039, y=-0.372 | mode=AVOID_RIGHT | active=O1 | clearance=0.355 m
+t=32.0 s | x=-0.003, y=-0.382 | mode=AVOID_RIGHT | active=O1 | clearance=0.371 m
+t=33.0 s | x=0.036, y=-0.394 | mode=AVOID_RIGHT | active=O1 | clearance=0.390 m
+t=34.0 s | x=0.078, y=-0.411 | mode=AVOID_RIGHT | active=O1 | clearance=0.417 m
+t=35.0 s | x=0.124, y=-0.425 | mode=AVOID_RIGHT | active=O1 | clearance=0.445 m
+Passed O1 at x=0.150
+t=36.0 s | x=0.165, y=-0.434 | mode=NOMINAL | active=none | clearance=0.469 m
+t=37.0 s | x=0.210, y=-0.425 | mode=NOMINAL | active=none | clearance=0.479 m
+t=38.0 s | x=0.250, y=-0.419 | mode=NOMINAL | active=none | clearance=0.494 m
+t=39.0 s | x=0.295, y=-0.419 | mode=NOMINAL | active=none | clearance=0.517 m
+t=40.0 s | x=0.341, y=-0.418 | mode=NOMINAL | active=none | clearance=0.543 m
+t=41.0 s | x=0.386, y=-0.408 | mode=NOMINAL | active=none | clearance=0.563 m
+t=42.0 s | x=0.432, y=-0.400 | mode=NOMINAL | active=none | clearance=0.551 m
+t=43.0 s | x=0.471, y=-0.393 | mode=NOMINAL | active=none | clearance=0.512 m
+t=44.0 s | x=0.513, y=-0.392 | mode=NOMINAL | active=none | clearance=0.471 m
+t=45.0 s | x=0.560, y=-0.386 | mode=NOMINAL | active=none | clearance=0.425 m
+t=46.0 s | x=0.603, y=-0.385 | mode=NOMINAL | active=none | clearance=0.385 m
+t=47.0 s | x=0.647, y=-0.379 | mode=NOMINAL | active=none | clearance=0.341 m
+t=48.0 s | x=0.670, y=-0.347 | mode=AVOID_LEFT | active=O2 | clearance=0.308 m
+t=49.0 s | x=0.691, y=-0.317 | mode=AVOID_LEFT | active=O2 | clearance=0.279 m
+t=50.0 s | x=0.702, y=-0.291 | mode=AVOID_LEFT | active=O2 | clearance=0.261 m
+t=51.0 s | x=0.705, y=-0.252 | mode=AVOID_LEFT | active=O2 | clearance=0.251 m
+t=52.0 s | x=0.704, y=-0.223 | mode=AVOID_LEFT | active=O2 | clearance=0.248 m
+t=53.0 s | x=0.708, y=-0.186 | mode=AVOID_LEFT | active=O2 | clearance=0.242 m
+t=54.0 s | x=0.716, y=-0.150 | mode=AVOID_LEFT | active=O2 | clearance=0.235 m
+t=55.0 s | x=0.718, y=-0.123 | mode=AVOID_LEFT | active=O2 | clearance=0.236 m
+t=56.0 s | x=0.720, y=-0.086 | mode=AVOID_LEFT | active=O2 | clearance=0.240 m
+t=57.0 s | x=0.727, y=-0.058 | mode=AVOID_LEFT | active=O2 | clearance=0.240 m
+t=58.0 s | x=0.730, y=-0.027 | mode=AVOID_LEFT | active=O2 | clearance=0.247 m
+t=59.0 s | x=0.743, y=0.005 | mode=AVOID_LEFT | active=O2 | clearance=0.247 m
+t=60.0 s | x=0.756, y=0.038 | mode=AVOID_LEFT | active=O2 | clearance=0.250 m
+t=61.0 s | x=0.769, y=0.075 | mode=AVOID_LEFT | active=O2 | clearance=0.258 m
+t=62.0 s | x=0.784, y=0.102 | mode=AVOID_LEFT | active=O2 | clearance=0.262 m
+t=63.0 s | x=0.807, y=0.132 | mode=AVOID_LEFT | active=O2 | clearance=0.264 m
+t=64.0 s | x=0.819, y=0.155 | mode=AVOID_LEFT | active=O2 | clearance=0.271 m
+t=65.0 s | x=0.842, y=0.190 | mode=AVOID_LEFT | active=O2 | clearance=0.281 m
+t=66.0 s | x=0.865, y=0.216 | mode=AVOID_LEFT | active=O2 | clearance=0.287 m
+t=67.0 s | x=0.889, y=0.244 | mode=AVOID_LEFT | active=O2 | clearance=0.298 m
+t=68.0 s | x=0.914, y=0.266 | mode=AVOID_LEFT | active=O2 | clearance=0.305 m
+t=69.0 s | x=0.945, y=0.294 | mode=AVOID_LEFT | active=O2 | clearance=0.317 m
+t=70.0 s | x=0.980, y=0.306 | mode=AVOID_LEFT | active=O2 | clearance=0.315 m
+t=71.0 s | x=1.023, y=0.328 | mode=AVOID_LEFT | active=O2 | clearance=0.324 m
+t=72.0 s | x=1.052, y=0.339 | mode=AVOID_LEFT | active=O2 | clearance=0.329 m
+t=73.0 s | x=1.087, y=0.350 | mode=AVOID_LEFT | active=O2 | clearance=0.333 m
+t=74.0 s | x=1.129, y=0.356 | mode=AVOID_LEFT | active=O2 | clearance=0.336 m
+t=75.0 s | x=1.164, y=0.365 | mode=AVOID_LEFT | active=O2 | clearance=0.345 m
+t=76.0 s | x=1.205, y=0.380 | mode=AVOID_LEFT | active=O2 | clearance=0.362 m
+t=77.0 s | x=1.244, y=0.390 | mode=AVOID_LEFT | active=O2 | clearance=0.378 m
+t=78.0 s | x=1.280, y=0.398 | mode=AVOID_LEFT | active=O2 | clearance=0.393 m
+t=79.0 s | x=1.321, y=0.417 | mode=AVOID_LEFT | active=O2 | clearance=0.421 m
+t=80.0 s | x=1.361, y=0.425 | mode=AVOID_LEFT | active=O2 | clearance=0.441 m
+Passed O2 at x=1.400
+t=81.0 s | x=1.408, y=0.438 | mode=NOMINAL | active=none | clearance=0.470 m
+t=82.0 s | x=1.452, y=0.436 | mode=NOMINAL | active=none | clearance=0.486 m
+t=83.0 s | x=1.491, y=0.423 | mode=NOMINAL | active=none | clearance=0.492 m
+t=84.0 s | x=1.533, y=0.415 | mode=NOMINAL | active=none | clearance=0.508 m
+t=85.0 s | x=1.576, y=0.410 | mode=NOMINAL | active=none | clearance=0.528 m
+t=86.0 s | x=1.617, y=0.400 | mode=NOMINAL | active=none | clearance=0.545 m
+t=87.0 s | x=1.660, y=0.392 | mode=NOMINAL | active=none | clearance=0.566 m
+t=88.0 s | x=1.703, y=0.391 | mode=NOMINAL | active=none | clearance=0.528 m
+t=89.0 s | x=1.738, y=0.382 | mode=NOMINAL | active=none | clearance=0.492 m
+t=90.0 s | x=1.789, y=0.373 | mode=NOMINAL | active=none | clearance=0.441 m
+t=91.0 s | x=1.834, y=0.365 | mode=NOMINAL | active=none | clearance=0.395 m
+t=92.0 s | x=1.886, y=0.364 | mode=NOMINAL | active=none | clearance=0.346 m
+t=93.0 s | x=1.916, y=0.340 | mode=AVOID_RIGHT | active=O3 | clearance=0.310 m
+t=94.0 s | x=1.936, y=0.305 | mode=AVOID_RIGHT | active=O3 | clearance=0.281 m
+t=95.0 s | x=1.952, y=0.276 | mode=AVOID_RIGHT | active=O3 | clearance=0.258 m
+t=96.0 s | x=1.960, y=0.240 | mode=AVOID_RIGHT | active=O3 | clearance=0.244 m
+t=97.0 s | x=1.958, y=0.208 | mode=AVOID_RIGHT | active=O3 | clearance=0.243 m
+t=98.0 s | x=1.953, y=0.177 | mode=AVOID_RIGHT | active=O3 | clearance=0.247 m
+t=99.0 s | x=1.959, y=0.145 | mode=AVOID_RIGHT | active=O3 | clearance=0.242 m
+t=100.0 s | x=1.960, y=0.112 | mode=AVOID_RIGHT | active=O3 | clearance=0.245 m
+t=101.0 s | x=1.966, y=0.080 | mode=AVOID_RIGHT | active=O3 | clearance=0.245 m
+t=102.0 s | x=1.971, y=0.047 | mode=AVOID_RIGHT | active=O3 | clearance=0.250 m
+t=103.0 s | x=1.987, y=0.015 | mode=AVOID_RIGHT | active=O3 | clearance=0.245 m
+t=104.0 s | x=1.994, y=-0.022 | mode=AVOID_RIGHT | active=O3 | clearance=0.254 m
+t=105.0 s | x=2.007, y=-0.056 | mode=AVOID_RIGHT | active=O3 | clearance=0.259 m
+t=106.0 s | x=2.023, y=-0.086 | mode=AVOID_RIGHT | active=O3 | clearance=0.262 m
+t=107.0 s | x=2.045, y=-0.120 | mode=AVOID_RIGHT | active=O3 | clearance=0.265 m
+t=108.0 s | x=2.065, y=-0.142 | mode=AVOID_RIGHT | active=O3 | clearance=0.265 m
+t=109.0 s | x=2.081, y=-0.169 | mode=AVOID_RIGHT | active=O3 | clearance=0.273 m
+t=110.0 s | x=2.096, y=-0.197 | mode=AVOID_RIGHT | active=O3 | clearance=0.284 m
+t=111.0 s | x=2.127, y=-0.225 | mode=AVOID_RIGHT | active=O3 | clearance=0.289 m
+t=112.0 s | x=2.152, y=-0.251 | mode=AVOID_RIGHT | active=O3 | clearance=0.297 m
+t=113.0 s | x=2.176, y=-0.270 | mode=AVOID_RIGHT | active=O3 | clearance=0.303 m
+t=114.0 s | x=2.210, y=-0.294 | mode=AVOID_RIGHT | active=O3 | clearance=0.310 m
+t=115.0 s | x=2.243, y=-0.308 | mode=AVOID_RIGHT | active=O3 | clearance=0.312 m
+t=116.0 s | x=2.271, y=-0.330 | mode=AVOID_RIGHT | active=O3 | clearance=0.325 m
+t=117.0 s | x=2.304, y=-0.342 | mode=AVOID_RIGHT | active=O3 | clearance=0.331 m
+t=118.0 s | x=2.336, y=-0.353 | mode=AVOID_RIGHT | active=O3 | clearance=0.337 m
+t=119.0 s | x=2.368, y=-0.370 | mode=AVOID_RIGHT | active=O3 | clearance=0.351 m
+t=120.0 s | x=2.411, y=-0.375 | mode=AVOID_RIGHT | active=O3 | clearance=0.355 m
+t=121.0 s | x=2.447, y=-0.380 | mode=AVOID_RIGHT | active=O3 | clearance=0.362 m
+t=122.0 s | x=2.490, y=-0.392 | mode=AVOID_RIGHT | active=O3 | clearance=0.379 m
+t=123.0 s | x=2.526, y=-0.407 | mode=AVOID_RIGHT | active=O3 | clearance=0.400 m
+t=124.0 s | x=2.572, y=-0.413 | mode=AVOID_RIGHT | active=O3 | clearance=0.417 m
+t=125.0 s | x=2.615, y=-0.426 | mode=AVOID_RIGHT | active=O3 | clearance=0.443 m
+Passed O3 at x=2.651
+t=126.0 s | x=2.659, y=-0.433 | mode=NOMINAL | active=none | clearance=0.465 m
+t=127.0 s | x=2.705, y=-0.416 | mode=NOMINAL | active=none | clearance=0.470 m
+t=128.0 s | x=2.752, y=-0.404 | mode=NOMINAL | active=none | clearance=0.482 m
+t=129.0 s | x=2.793, y=-0.397 | mode=NOMINAL | active=none | clearance=0.498 m
+t=130.0 s | x=2.836, y=-0.381 | mode=NOMINAL | active=none | clearance=0.510 m
+t=131.0 s | x=2.882, y=-0.369 | mode=NOMINAL | active=none | clearance=0.530 m
+t=132.0 s | x=2.928, y=-0.355 | mode=NOMINAL | active=none | clearance=0.543 m
+t=133.0 s | x=2.973, y=-0.346 | mode=NOMINAL | active=none | clearance=0.497 m
+t=134.0 s | x=3.016, y=-0.335 | mode=NOMINAL | active=none | clearance=0.453 m
+t=135.0 s | x=3.065, y=-0.325 | mode=NOMINAL | active=none | clearance=0.402 m
+t=136.0 s | x=3.109, y=-0.319 | mode=NOMINAL | active=none | clearance=0.359 m
+t=137.0 s | x=3.144, y=-0.303 | mode=AVOID_LEFT | active=O4 | clearance=0.321 m
+t=138.0 s | x=3.167, y=-0.268 | mode=AVOID_LEFT | active=O4 | clearance=0.291 m
+t=139.0 s | x=3.187, y=-0.229 | mode=AVOID_LEFT | active=O4 | clearance=0.265 m
+t=140.0 s | x=3.198, y=-0.198 | mode=AVOID_LEFT | active=O4 | clearance=0.252 m
+t=141.0 s | x=3.215, y=-0.159 | mode=AVOID_LEFT | active=O4 | clearance=0.236 m
+t=142.0 s | x=3.214, y=-0.131 | mode=AVOID_LEFT | active=O4 | clearance=0.239 m
+t=143.0 s | x=3.215, y=-0.093 | mode=AVOID_LEFT | active=O4 | clearance=0.244 m
+t=144.0 s | x=3.213, y=-0.060 | mode=AVOID_LEFT | active=O4 | clearance=0.253 m
+t=145.0 s | x=3.220, y=-0.030 | mode=AVOID_LEFT | active=O4 | clearance=0.255 m
+t=146.0 s | x=3.226, y=0.005 | mode=AVOID_LEFT | active=O4 | clearance=0.262 m
+t=147.0 s | x=3.239, y=0.024 | mode=AVOID_LEFT | active=O4 | clearance=0.259 m
+t=148.0 s | x=3.257, y=0.059 | mode=AVOID_LEFT | active=O4 | clearance=0.260 m
+t=149.0 s | x=3.270, y=0.091 | mode=AVOID_LEFT | active=O4 | clearance=0.267 m
+t=150.0 s | x=3.288, y=0.117 | mode=AVOID_LEFT | active=O4 | clearance=0.268 m
+t=151.0 s | x=3.306, y=0.151 | mode=AVOID_LEFT | active=O4 | clearance=0.277 m
+t=152.0 s | x=3.327, y=0.173 | mode=AVOID_LEFT | active=O4 | clearance=0.278 m
+t=153.0 s | x=3.357, y=0.201 | mode=AVOID_LEFT | active=O4 | clearance=0.280 m
+t=154.0 s | x=3.380, y=0.228 | mode=AVOID_LEFT | active=O4 | clearance=0.289 m
+t=155.0 s | x=3.404, y=0.250 | mode=AVOID_LEFT | active=O4 | clearance=0.296 m
+t=156.0 s | x=3.440, y=0.282 | mode=AVOID_LEFT | active=O4 | clearance=0.308 m
+t=157.0 s | x=3.478, y=0.303 | mode=AVOID_LEFT | active=O4 | clearance=0.313 m
+t=158.0 s | x=3.509, y=0.321 | mode=AVOID_LEFT | active=O4 | clearance=0.320 m
+t=159.0 s | x=3.551, y=0.336 | mode=AVOID_LEFT | active=O4 | clearance=0.326 m
+t=160.0 s | x=3.582, y=0.345 | mode=AVOID_LEFT | active=O4 | clearance=0.330 m
+t=161.0 s | x=3.626, y=0.350 | mode=AVOID_LEFT | active=O4 | clearance=0.331 m
+t=162.0 s | x=3.666, y=0.359 | mode=AVOID_LEFT | active=O4 | clearance=0.339 m
+t=163.0 s | x=3.699, y=0.370 | mode=AVOID_LEFT | active=O4 | clearance=0.352 m
+t=164.0 s | x=3.739, y=0.387 | mode=AVOID_LEFT | active=O4 | clearance=0.374 m
+t=165.0 s | x=3.776, y=0.392 | mode=AVOID_LEFT | active=O4 | clearance=0.386 m
+t=166.0 s | x=3.817, y=0.398 | mode=AVOID_LEFT | active=O4 | clearance=0.402 m
+t=167.0 s | x=3.857, y=0.408 | mode=AVOID_LEFT | active=O4 | clearance=0.424 m
+t=168.0 s | x=3.887, y=0.420 | mode=AVOID_LEFT | active=O4 | clearance=0.445 m
+Passed O4 at x=3.900
+t=169.0 s | x=3.917, y=0.403 | mode=NOMINAL | active=none | clearance=0.441 m
+t=170.0 s | x=3.941, y=0.367 | mode=NOMINAL | active=none | clearance=0.420 m
+t=171.0 s | x=3.972, y=0.331 | mode=NOMINAL | active=none | clearance=0.404 m
+t=172.0 s | x=3.996, y=0.299 | mode=NOMINAL | active=none | clearance=0.391 m
+t=173.0 s | x=4.022, y=0.265 | mode=NOMINAL | active=none | clearance=0.380 m
+t=174.0 s | x=4.058, y=0.215 | mode=NOMINAL | active=none | clearance=0.368 m
+t=175.0 s | x=4.087, y=0.180 | mode=NOMINAL | active=none | clearance=0.366 m
+t=176.0 s | x=4.108, y=0.146 | mode=NOMINAL | active=none | clearance=0.362 m
+t=177.0 s | x=4.125, y=0.102 | mode=NOMINAL | active=none | clearance=0.353 m
+Reached final goal at t=177.19 s.
+Saved trajectory CSV: results\oracle_comparison\20260724_163828\geometry\trial_001\run_20260724_163829\camera_oracle_trajectory.csv
+Saved 2D trajectory plot: results\oracle_comparison\20260724_163828\geometry\trial_001\run_20260724_163829\camera_oracle_trajectory_2d.png
+Saved 2D trajectory PDF: results\oracle_comparison\20260724_163828\geometry\trial_001\run_20260724_163829\camera_oracle_trajectory_2d.pdf
+
+Run summary:
+Minimum physical clearance: 0.231 m
+Final position: x=4.129, y=0.097
+Simulation finished.
+
+
+STDERR:
+pybullet build time: Oct 21 2025 12:15:52
+C:\Users\hanib\gym-drone\gym_pybullet_drones\envs\BaseAviary.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+C:\Users\hanib\.conda\envs\drones\lib\site-packages\gymnasium\spaces\box.py:236: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+C:\Users\hanib\.conda\envs\drones\lib\site-packages\gymnasium\spaces\box.py:306: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+Ignoring fixed y limits to fulfill fixed data aspect with adjustable data limits.
+Ignoring fixed y limits to fulfill fixed data aspect with adjustable data limits.

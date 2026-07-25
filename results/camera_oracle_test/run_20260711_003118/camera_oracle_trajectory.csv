@@ -1,1 +1,0 @@
-time_s,x_m,y_m,z_m,physical_clearance_m,effective_clearance_m,nearest_obstacle,active_obstacle,commanded_speed_mps,control_mode,detected_obstacles,nearest_detected_distance_m,nearest_detected_bearing_deg,nearest_detected_confidence

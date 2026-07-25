@@ -1,0 +1,204 @@
+COMMAND:
+C:\Users\hanib\.conda\envs\drones\python.exe -m gym_pybullet_drones.predictiveMonitoringControl.run_closed_loop_camera_oracle --gui False --plot False --duration_sec 200 --output_folder results\oracle_comparison\20260724_165536\closed_loop_camera\trial_001
+
+STDOUT:
+Saving outputs to: results\oracle_comparison\20260724_165536\closed_loop_camera\trial_001\run_20260724_165718
+[INFO] BaseAviary.__init__() loaded parameters from the drone's .urdf:
+[INFO] m 0.027000, L 0.039700,
+[INFO] ixx 0.000014, iyy 0.000014, izz 0.000022,
+[INFO] kf 3.160000e-10, km 7.940000e-12,
+[INFO] t2w 2.250000, max_speed_kmh 30.000000,
+[INFO] gnd_eff_coeff 11.368590, prop_radius 0.023135,
+[INFO] drag_xy_coeff 0.000001, drag_z_coeff 0.000001,
+[INFO] dw_coeff_1 2267.180000, dw_coeff_2 0.160000, dw_coeff_3 -0.110000
+Visible obstacle IDs: [2, 3, 4, 5]
+Drone body ID: 1
+Closed-loop camera-oracle test started.
+Saved first camera frame: results\oracle_comparison\20260724_165536\closed_loop_camera\trial_001\run_20260724_165718\first_virtual_camera_frame.png
+t=0.0 s | x=-1.200, y=-0.000 | mode=NOMINAL | active=O1_RED | true_clearance=0.915 m | camera_distance=1.306 m | risk=0.00
+t=1.0 s | x=-1.158, y=0.000 | mode=NOMINAL | active=O1_RED | true_clearance=0.873 m | camera_distance=1.235 m | risk=0.00
+t=2.0 s | x=-1.118, y=-0.003 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.834 m | camera_distance=1.195 m | risk=0.01
+t=3.0 s | x=-1.089, y=-0.046 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.814 m | camera_distance=1.143 m | risk=0.10
+t=4.0 s | x=-1.056, y=-0.078 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.790 m | camera_distance=1.082 m | risk=0.22
+t=5.0 s | x=-1.027, y=-0.112 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.772 m | camera_distance=1.039 m | risk=0.29
+t=6.0 s | x=-1.000, y=-0.145 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.757 m | camera_distance=0.978 m | risk=0.40
+t=7.0 s | x=-0.971, y=-0.183 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.744 m | camera_distance=0.914 m | risk=0.52
+t=8.0 s | x=-0.945, y=-0.216 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.733 m | camera_distance=0.862 m | risk=0.61
+t=9.0 s | x=-0.924, y=-0.245 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.728 m | camera_distance=0.802 m | risk=0.72
+t=10.0 s | x=-0.896, y=-0.287 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.723 m | camera_distance=0.883 m | risk=0.58
+t=11.0 s | x=-0.872, y=-0.311 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.715 m | camera_distance=0.923 m | risk=0.50
+t=12.0 s | x=-0.851, y=-0.340 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.714 m | camera_distance=0.967 m | risk=0.42
+t=13.0 s | x=-0.827, y=-0.377 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.716 m | camera_distance=1.095 m | risk=0.19
+t=14.0 s | x=-0.805, y=-0.408 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.718 m | camera_distance=1.235 m | risk=0.00
+t=15.0 s | x=-0.778, y=-0.437 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.717 m | camera_distance=1.395 m | risk=0.00
+t=16.0 s | x=-0.761, y=-0.467 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.725 m | camera_distance=1.677 m | risk=0.00
+t=17.0 s | x=-0.736, y=-0.507 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.736 m | camera_distance=2.229 m | risk=0.00
+t=18.0 s | x=-0.710, y=-0.540 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.743 m | camera_distance=3.152 m | risk=0.00
+t=19.0 s | x=-0.690, y=-0.564 | mode=AVOID_RIGHT | active=O1_RED | true_clearance=0.750 m | camera_distance=3.808 m | risk=0.00
+t=20.0 s | x=-0.668, y=-0.603 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.767 m | camera_distance=2.257 m | risk=0.00
+t=21.0 s | x=-0.632, y=-0.609 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.752 m | camera_distance=2.202 m | risk=0.00
+t=22.0 s | x=-0.591, y=-0.602 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.724 m | camera_distance=2.126 m | risk=0.00
+t=23.0 s | x=-0.543, y=-0.596 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.693 m | camera_distance=2.077 m | risk=0.00
+t=24.0 s | x=-0.500, y=-0.587 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.665 m | camera_distance=2.031 m | risk=0.00
+t=25.0 s | x=-0.461, y=-0.569 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.632 m | camera_distance=1.945 m | risk=0.00
+t=26.0 s | x=-0.417, y=-0.563 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.608 m | camera_distance=1.904 m | risk=0.00
+t=27.0 s | x=-0.379, y=-0.560 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.591 m | camera_distance=1.846 m | risk=0.00
+t=28.0 s | x=-0.333, y=-0.554 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.570 m | camera_distance=1.828 m | risk=0.00
+t=29.0 s | x=-0.290, y=-0.544 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.549 m | camera_distance=1.758 m | risk=0.00
+t=30.0 s | x=-0.242, y=-0.539 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.533 m | camera_distance=1.693 m | risk=0.00
+t=31.0 s | x=-0.196, y=-0.526 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.513 m | camera_distance=1.590 m | risk=0.00
+t=32.0 s | x=-0.158, y=-0.524 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.506 m | camera_distance=1.576 m | risk=0.00
+t=33.0 s | x=-0.118, y=-0.515 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.495 m | camera_distance=1.511 m | risk=0.00
+t=34.0 s | x=-0.071, y=-0.509 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.490 m | camera_distance=1.462 m | risk=0.00
+t=35.0 s | x=-0.026, y=-0.505 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.489 m | camera_distance=1.374 m | risk=0.00
+t=36.0 s | x=0.014, y=-0.502 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.491 m | camera_distance=1.325 m | risk=0.00
+t=37.0 s | x=0.057, y=-0.498 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.496 m | camera_distance=1.269 m | risk=0.00
+t=38.0 s | x=0.109, y=-0.486 | mode=NOMINAL | active=O2_BLUE | true_clearance=0.498 m | camera_distance=1.211 m | risk=0.00
+t=39.0 s | x=0.143, y=-0.460 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.485 m | camera_distance=1.179 m | risk=0.04
+t=40.0 s | x=0.168, y=-0.430 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.466 m | camera_distance=1.150 m | risk=0.09
+t=41.0 s | x=0.189, y=-0.391 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.440 m | camera_distance=1.121 m | risk=0.14
+t=42.0 s | x=0.208, y=-0.367 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.428 m | camera_distance=1.101 m | risk=0.18
+t=43.0 s | x=0.237, y=-0.335 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.415 m | camera_distance=1.082 m | risk=0.22
+t=44.0 s | x=0.260, y=-0.295 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.396 m | camera_distance=1.051 m | risk=0.27
+t=45.0 s | x=0.282, y=-0.268 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.388 m | camera_distance=1.027 m | risk=0.31
+t=46.0 s | x=0.295, y=-0.235 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.373 m | camera_distance=1.016 m | risk=0.34
+t=47.0 s | x=0.321, y=-0.195 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.364 m | camera_distance=0.988 m | risk=0.39
+t=48.0 s | x=0.339, y=-0.164 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.357 m | camera_distance=0.957 m | risk=0.44
+t=49.0 s | x=0.362, y=-0.128 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.356 m | camera_distance=0.923 m | risk=0.50
+t=50.0 s | x=0.392, y=-0.094 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.363 m | camera_distance=0.879 m | risk=0.58
+t=51.0 s | x=0.411, y=-0.056 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.363 m | camera_distance=0.839 m | risk=0.66
+t=52.0 s | x=0.443, y=-0.019 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.379 m | camera_distance=0.781 m | risk=0.76
+t=53.0 s | x=0.472, y=0.015 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.395 m | camera_distance=0.714 m | risk=0.88
+t=54.0 s | x=0.496, y=0.045 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.411 m | camera_distance=0.690 m | risk=0.93
+t=55.0 s | x=0.520, y=0.077 | mode=CRITICAL_AVOID_LEFT | active=O2_BLUE | true_clearance=0.429 m | camera_distance=0.637 m | risk=1.00
+t=56.0 s | x=0.534, y=0.108 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.438 m | camera_distance=0.682 m | risk=0.94
+t=57.0 s | x=0.555, y=0.146 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.456 m | camera_distance=0.746 m | risk=0.83
+t=58.0 s | x=0.581, y=0.184 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.475 m | camera_distance=0.827 m | risk=0.68
+t=59.0 s | x=0.595, y=0.218 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.483 m | camera_distance=0.923 m | risk=0.50
+t=60.0 s | x=0.622, y=0.255 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.484 m | camera_distance=1.033 m | risk=0.30
+t=61.0 s | x=0.649, y=0.292 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.488 m | camera_distance=1.252 m | risk=0.00
+t=62.0 s | x=0.679, y=0.325 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.491 m | camera_distance=1.549 m | risk=0.00
+t=63.0 s | x=0.699, y=0.358 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.502 m | camera_distance=1.966 m | risk=0.00
+t=64.0 s | x=0.725, y=0.392 | mode=AVOID_LEFT | active=O2_BLUE | true_clearance=0.513 m | camera_distance=3.584 m | risk=0.00
+t=65.0 s | x=0.748, y=0.427 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.528 m | camera_distance=2.031 m | risk=0.00
+t=66.0 s | x=0.797, y=0.427 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.502 m | camera_distance=1.945 m | risk=0.00
+t=67.0 s | x=0.844, y=0.419 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.473 m | camera_distance=1.904 m | risk=0.00
+t=68.0 s | x=0.891, y=0.413 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.447 m | camera_distance=1.792 m | risk=0.00
+t=69.0 s | x=0.939, y=0.406 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.423 m | camera_distance=1.775 m | risk=0.00
+t=70.0 s | x=0.991, y=0.399 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.401 m | camera_distance=1.725 m | risk=0.00
+t=71.0 s | x=1.034, y=0.391 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.382 m | camera_distance=1.662 m | risk=0.00
+t=72.0 s | x=1.077, y=0.391 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.376 m | camera_distance=1.618 m | risk=0.00
+t=73.0 s | x=1.122, y=0.383 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.364 m | camera_distance=1.536 m | risk=0.00
+t=74.0 s | x=1.167, y=0.383 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.364 m | camera_distance=1.486 m | risk=0.00
+t=75.0 s | x=1.211, y=0.390 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.374 m | camera_distance=1.439 m | risk=0.00
+t=76.0 s | x=1.248, y=0.388 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.376 m | camera_distance=1.374 m | risk=0.00
+t=77.0 s | x=1.288, y=0.384 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.381 m | camera_distance=1.334 m | risk=0.00
+t=78.0 s | x=1.335, y=0.377 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.387 m | camera_distance=1.269 m | risk=0.00
+t=79.0 s | x=1.376, y=0.374 | mode=NOMINAL | active=O3_YELLOW | true_clearance=0.398 m | camera_distance=1.211 m | risk=0.00
+t=80.0 s | x=1.402, y=0.346 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.383 m | camera_distance=1.179 m | risk=0.04
+t=81.0 s | x=1.422, y=0.310 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.360 m | camera_distance=1.157 m | risk=0.08
+t=82.0 s | x=1.448, y=0.276 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.345 m | camera_distance=1.150 m | risk=0.09
+t=83.0 s | x=1.469, y=0.234 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.323 m | camera_distance=1.128 m | risk=0.13
+t=84.0 s | x=1.496, y=0.191 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.308 m | camera_distance=1.101 m | risk=0.18
+t=85.0 s | x=1.519, y=0.162 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.303 m | camera_distance=1.069 m | risk=0.24
+t=86.0 s | x=1.542, y=0.126 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.297 m | camera_distance=1.033 m | risk=0.30
+t=87.0 s | x=1.562, y=0.088 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.291 m | camera_distance=0.999 m | risk=0.37
+t=88.0 s | x=1.579, y=0.052 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.288 m | camera_distance=0.967 m | risk=0.42
+t=89.0 s | x=1.609, y=0.019 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.301 m | camera_distance=0.914 m | risk=0.52
+t=90.0 s | x=1.638, y=-0.017 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.315 m | camera_distance=0.858 m | risk=0.62
+t=91.0 s | x=1.658, y=-0.039 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.327 m | camera_distance=0.823 m | risk=0.68
+t=92.0 s | x=1.687, y=-0.078 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.347 m | camera_distance=0.775 m | risk=0.77
+t=93.0 s | x=1.710, y=-0.110 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.365 m | camera_distance=0.723 m | risk=0.87
+t=94.0 s | x=1.738, y=-0.140 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.389 m | camera_distance=0.703 m | risk=0.90
+t=95.0 s | x=1.768, y=-0.169 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.418 m | camera_distance=0.746 m | risk=0.83
+t=96.0 s | x=1.786, y=-0.208 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.436 m | camera_distance=0.839 m | risk=0.66
+t=97.0 s | x=1.808, y=-0.236 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.460 m | camera_distance=0.875 m | risk=0.59
+t=98.0 s | x=1.833, y=-0.268 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.489 m | camera_distance=0.999 m | risk=0.37
+t=99.0 s | x=1.854, y=-0.303 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.515 m | camera_distance=1.121 m | risk=0.14
+t=100.0 s | x=1.879, y=-0.338 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.535 m | camera_distance=1.334 m | risk=0.00
+t=101.0 s | x=1.904, y=-0.374 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.543 m | camera_distance=1.604 m | risk=0.00
+t=102.0 s | x=1.931, y=-0.416 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.558 m | camera_distance=2.470 m | risk=0.00
+t=103.0 s | x=1.950, y=-0.444 | mode=AVOID_RIGHT | active=O3_YELLOW | true_clearance=0.569 m | camera_distance=3.731 m | risk=0.00
+t=104.0 s | x=1.977, y=-0.480 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.584 m | camera_distance=2.101 m | risk=0.00
+t=105.0 s | x=2.023, y=-0.470 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.551 m | camera_distance=2.031 m | risk=0.00
+t=106.0 s | x=2.063, y=-0.457 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.520 m | camera_distance=1.966 m | risk=0.00
+t=107.0 s | x=2.106, y=-0.456 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.500 m | camera_distance=1.924 m | risk=0.00
+t=108.0 s | x=2.151, y=-0.444 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.472 m | camera_distance=1.865 m | risk=0.00
+t=109.0 s | x=2.202, y=-0.428 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.440 m | camera_distance=1.792 m | risk=0.00
+t=110.0 s | x=2.243, y=-0.420 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.420 m | camera_distance=1.741 m | risk=0.00
+t=111.0 s | x=2.282, y=-0.407 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.398 m | camera_distance=1.677 m | risk=0.00
+t=112.0 s | x=2.321, y=-0.390 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.375 m | camera_distance=1.647 m | risk=0.00
+t=113.0 s | x=2.367, y=-0.376 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.357 m | camera_distance=1.576 m | risk=0.00
+t=114.0 s | x=2.413, y=-0.373 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.353 m | camera_distance=1.523 m | risk=0.00
+t=115.0 s | x=2.455, y=-0.357 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.339 m | camera_distance=1.462 m | risk=0.00
+t=116.0 s | x=2.505, y=-0.344 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.335 m | camera_distance=1.395 m | risk=0.00
+t=117.0 s | x=2.552, y=-0.334 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.336 m | camera_distance=1.334 m | risk=0.00
+t=118.0 s | x=2.599, y=-0.328 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.346 m | camera_distance=1.287 m | risk=0.00
+t=119.0 s | x=2.640, y=-0.327 | mode=NOMINAL | active=O4_GREEN | true_clearance=0.361 m | camera_distance=1.227 m | risk=0.00
+t=120.0 s | x=2.681, y=-0.300 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.356 m | camera_distance=1.179 m | risk=0.04
+t=121.0 s | x=2.704, y=-0.270 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.343 m | camera_distance=1.157 m | risk=0.08
+t=122.0 s | x=2.731, y=-0.239 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.334 m | camera_distance=1.128 m | risk=0.13
+t=123.0 s | x=2.758, y=-0.211 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.330 m | camera_distance=1.095 m | risk=0.19
+t=124.0 s | x=2.782, y=-0.176 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.322 m | camera_distance=1.063 m | risk=0.25
+t=125.0 s | x=2.803, y=-0.148 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.319 m | camera_distance=1.039 m | risk=0.29
+t=126.0 s | x=2.825, y=-0.108 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.313 m | camera_distance=1.004 m | risk=0.36
+t=127.0 s | x=2.854, y=-0.072 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.319 m | camera_distance=0.952 m | risk=0.45
+t=128.0 s | x=2.874, y=-0.039 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.322 m | camera_distance=0.914 m | risk=0.52
+t=129.0 s | x=2.893, y=0.000 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.325 m | camera_distance=0.883 m | risk=0.58
+t=130.0 s | x=2.915, y=0.038 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.334 m | camera_distance=0.827 m | risk=0.68
+t=131.0 s | x=2.936, y=0.074 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.346 m | camera_distance=0.788 m | risk=0.75
+t=132.0 s | x=2.955, y=0.098 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.361 m | camera_distance=0.746 m | risk=0.83
+t=133.0 s | x=2.985, y=0.142 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.386 m | camera_distance=0.700 m | risk=0.91
+t=134.0 s | x=3.006, y=0.178 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.406 m | camera_distance=0.740 m | risk=0.84
+t=135.0 s | x=3.032, y=0.210 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.433 m | camera_distance=0.820 m | risk=0.69
+t=136.0 s | x=3.054, y=0.243 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.457 m | camera_distance=0.892 m | risk=0.56
+t=137.0 s | x=3.077, y=0.277 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.484 m | camera_distance=0.999 m | risk=0.37
+t=138.0 s | x=3.102, y=0.310 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.514 m | camera_distance=1.082 m | risk=0.22
+t=139.0 s | x=3.122, y=0.341 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.540 m | camera_distance=1.244 m | risk=0.00
+t=140.0 s | x=3.143, y=0.372 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.549 m | camera_distance=1.511 m | risk=0.00
+t=141.0 s | x=3.170, y=0.410 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.561 m | camera_distance=2.176 m | risk=0.00
+t=142.0 s | x=3.194, y=0.445 | mode=AVOID_LEFT | active=O4_GREEN | true_clearance=0.574 m | camera_distance=3.324 m | risk=0.00
+t=143.0 s | x=3.224, y=0.479 | mode=PASSING_LEFT | active=O4_GREEN | true_clearance=0.585 m | camera_distance=4.941 m | risk=0.00
+t=144.0 s | x=3.264, y=0.471 | mode=NOMINAL | active=none | true_clearance=0.557 m | camera_distance=inf m | risk=0.00
+t=145.0 s | x=3.310, y=0.449 | mode=NOMINAL | active=none | true_clearance=0.515 m | camera_distance=inf m | risk=0.00
+t=146.0 s | x=3.362, y=0.433 | mode=NOMINAL | active=none | true_clearance=0.477 m | camera_distance=inf m | risk=0.00
+t=147.0 s | x=3.406, y=0.415 | mode=NOMINAL | active=none | true_clearance=0.443 m | camera_distance=inf m | risk=0.00
+t=148.0 s | x=3.445, y=0.393 | mode=NOMINAL | active=none | true_clearance=0.409 m | camera_distance=inf m | risk=0.00
+t=149.0 s | x=3.482, y=0.378 | mode=NOMINAL | active=none | true_clearance=0.383 m | camera_distance=inf m | risk=0.00
+t=150.0 s | x=3.521, y=0.355 | mode=NOMINAL | active=none | true_clearance=0.350 m | camera_distance=inf m | risk=0.00
+t=151.0 s | x=3.556, y=0.335 | mode=NOMINAL | active=none | true_clearance=0.323 m | camera_distance=inf m | risk=0.00
+t=152.0 s | x=3.593, y=0.311 | mode=NOMINAL | active=none | true_clearance=0.295 m | camera_distance=inf m | risk=0.00
+t=153.0 s | x=3.629, y=0.290 | mode=NOMINAL | active=none | true_clearance=0.271 m | camera_distance=inf m | risk=0.00
+t=154.0 s | x=3.671, y=0.269 | mode=NOMINAL | active=none | true_clearance=0.249 m | camera_distance=inf m | risk=0.00
+t=155.0 s | x=3.707, y=0.250 | mode=NOMINAL | active=none | true_clearance=0.234 m | camera_distance=inf m | risk=0.00
+t=156.0 s | x=3.753, y=0.232 | mode=NOMINAL | active=none | true_clearance=0.224 m | camera_distance=inf m | risk=0.00
+t=157.0 s | x=3.791, y=0.210 | mode=NOMINAL | active=none | true_clearance=0.215 m | camera_distance=inf m | risk=0.00
+t=158.0 s | x=3.839, y=0.192 | mode=NOMINAL | active=none | true_clearance=0.217 m | camera_distance=inf m | risk=0.00
+t=159.0 s | x=3.887, y=0.171 | mode=NOMINAL | active=none | true_clearance=0.224 m | camera_distance=inf m | risk=0.00
+t=160.0 s | x=3.924, y=0.146 | mode=NOMINAL | active=none | true_clearance=0.226 m | camera_distance=inf m | risk=0.00
+t=161.0 s | x=3.963, y=0.124 | mode=NOMINAL | active=none | true_clearance=0.236 m | camera_distance=inf m | risk=0.00
+t=162.0 s | x=4.007, y=0.109 | mode=NOMINAL | active=none | true_clearance=0.260 m | camera_distance=inf m | risk=0.00
+t=163.0 s | x=4.051, y=0.086 | mode=NOMINAL | active=none | true_clearance=0.281 m | camera_distance=inf m | risk=0.00
+t=164.0 s | x=4.092, y=0.060 | mode=NOMINAL | active=none | true_clearance=0.303 m | camera_distance=inf m | risk=0.00
+Reached final goal at t=164.08 s.
+Saved trajectory CSV: results\oracle_comparison\20260724_165536\closed_loop_camera\trial_001\run_20260724_165718\closed_loop_camera_oracle_trajectory.csv
+Saved 2D trajectory plot: results\oracle_comparison\20260724_165536\closed_loop_camera\trial_001\run_20260724_165718\closed_loop_camera_oracle_trajectory_2d.png
+Saved 2D trajectory PDF: results\oracle_comparison\20260724_165536\closed_loop_camera\trial_001\run_20260724_165718\closed_loop_camera_oracle_trajectory_2d.pdf
+
+Run summary:
+Minimum physical clearance: 0.213 m
+Minimum effective clearance: 0.033 m
+Final position: x=4.095, y=0.058
+Simulation finished.
+
+
+STDERR:
+pybullet build time: Oct 21 2025 12:15:52
+C:\Users\hanib\gym-drone\gym_pybullet_drones\envs\BaseAviary.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+C:\Users\hanib\.conda\envs\drones\lib\site-packages\gymnasium\spaces\box.py:236: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+C:\Users\hanib\.conda\envs\drones\lib\site-packages\gymnasium\spaces\box.py:306: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+Ignoring fixed y limits to fulfill fixed data aspect with adjustable data limits.
+Ignoring fixed y limits to fulfill fixed data aspect with adjustable data limits.

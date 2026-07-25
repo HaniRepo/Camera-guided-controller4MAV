@@ -1,0 +1,63 @@
+REVIEW-ONLY SOFTWARE LICENCE
+
+Copyright © 2026 The Authors. All rights reserved.
+
+1. Purpose
+
+The source code, software, documentation, data, configuration files, figures, and other materials contained in this repository (“Materials”) are provided exclusively for confidential academic peer review of the associated manuscript submitted to IECON 2026.
+
+2. Limited Permission
+
+Permission is granted only to:
+
+(a) reviewers officially assigned to evaluate the associated manuscript;
+
+(b) members of the relevant programme committee, editorial committee, or conference organisation; and
+
+(c) authorised artifact evaluators involved in the review process.
+
+Authorised reviewers may access, download, execute, and inspect the Materials solely to evaluate the associated manuscript during the official review period.
+
+3. Restrictions
+
+Except for the limited review permission stated above, no permission is granted to:
+
+(a) use the Materials for research, commercial, educational, operational, or personal purposes;
+
+(b) copy, reproduce, publish, redistribute, sublicense, sell, or otherwise provide the Materials to any third party;
+
+(c) modify, adapt, translate, reverse engineer, or create derivative works from the Materials;
+
+(d) incorporate any part of the Materials into another project, publication, dataset, product, or software system;
+
+(e) use the Materials to produce experimental results unrelated to the review of the associated manuscript; or
+
+(f) disclose the identity of the authors or any confidential information obtained through the review process.
+
+4. Review Period
+
+The permission granted by this licence applies only during the official review and evaluation period of the associated IECON 2026 submission.
+
+The permission automatically terminates when the review process ends, the manuscript is withdrawn, or the authors revoke access, whichever occurs first.
+
+After termination, reviewers must discontinue use of the Materials and delete any downloaded copies, except where retention is required by the conference’s official review policies.
+
+5. Ownership
+
+All copyright, intellectual property rights, and ownership rights in the Materials remain exclusively with the authors. Access to this repository does not transfer ownership or grant any rights beyond the limited review permission expressly stated in this licence.
+
+6. Future Licensing
+
+The authors may release the Materials under a different licence after completion of the peer-review process. No future licence or public release should be inferred from the availability of this review repository.
+
+7. No Warranty
+
+THE MATERIALS ARE PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, NON-INFRINGEMENT, OR FITNESS FOR A PARTICULAR RESEARCH OR OPERATIONAL USE.
+
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES, LOSS, OR OTHER LIABILITY ARISING FROM ACCESS TO OR USE OF THE MATERIALS.
+
+8. Acceptance
+
+By accessing, downloading, or using the Materials, the reviewer acknowledges that the Materials are supplied solely for peer-review purposes and agrees to comply with this licence.
+
+This repository is not open-source software and is not licensed for public reuse, redistribution, or modification.

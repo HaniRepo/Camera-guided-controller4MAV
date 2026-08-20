@@ -60,6 +60,21 @@ python -m gym_pybullet_drones.predictiveMonitoringControl.plot_paper_diagnostics
 ```
 The generated results include trajectory, clearance, risk, speed, intervention metrics, and per-obstacle diagnostic figures.
 
+## Run the Sensitivity Analysis Test
+```bashe
+python -m gym_pybullet_drones.predictiveMonitoringControl.run_camera_oracle_sensitivity
+```
+It runs seven experiments automatically:
+```text
+nominal
+threshold -10%
+threshold +10%
+speed -10%
+speed +10%
+lateral weight -10%
+lateral weight +10%
+```
+
 ## Running Crazyflie Hardware
 
 The closed-loop camera oracle successfully avoids four coloured obstacles and reaches the goal without using ground-truth obstacle coordinates for control.

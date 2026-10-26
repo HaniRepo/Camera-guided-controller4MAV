@@ -7,6 +7,8 @@ The framework combines obstacle perception, distance/bearing estimation, risk as
 ## Demo
 Our Demo also won IEEE SYPA award on IECON 2026 Conference. You can have a loot to this demo at the IES official YouTube Channel at the following link:
 [Demo](https://www.youtube.com/watch?v=-71jVl92HJ4)
+![Demo Snapshot](https://github.com/HaniRepo/Camera-guided-controller4MAV/blob/main/gym_pybullet_drones/lego.png)
+
 
 ## Overview
 

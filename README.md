@@ -4,6 +4,10 @@ This repository contains the implementation of a lightweight predictive safety m
 
 The framework combines obstacle perception, distance/bearing estimation, risk assessment, and a command-level safety oracle to modify the drone motion before collision occurs. The approach is designed for resource-constrained platforms such as the Bitcraze Crazyflie.
 
+## Demo
+Our Demo also won IEEE SYPA award on IECON 2026 Conference. You can have a loot to this demo at the IES official YouTube Channel at the following link:
+[Demo](https://www.youtube.com/watch?v=-71jVl92HJ4)
+
 ## Overview
 
 The proposed framework follows the pipeline:
